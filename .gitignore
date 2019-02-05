@@ -1,0 +1,13 @@
+# Don't check auto-generated stuff into git
+app/.next/
+coverage
+node_modules
+stats.json
+yarn-error.log
+
+# Cruft
+.DS_Store
+npm-debug.log
+.eslintcache
+
+*~

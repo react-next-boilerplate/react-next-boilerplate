@@ -1,0 +1,10 @@
+# Don't check auto-generated stuff into git
+app/.next
+
+node_modules
+.cache
+coverage/
+
+# Cruft
+.DS_Store
+npm-debug.log
