@@ -1,4 +1,4 @@
-const withSass = require("@zeit/next-sass");
+const withSass = require('@zeit/next-sass');
 
 module.exports = withSass({
   cssModules: true,
@@ -6,6 +6,6 @@ module.exports = withSass({
     modules: true,
     camelCase: true,
     importLoaders: 1,
-    localIdentName: "[local]___[hash:base64:5]"
-  }
+    localIdentName: '[local]___[hash:base64:5]',
+  },
 });

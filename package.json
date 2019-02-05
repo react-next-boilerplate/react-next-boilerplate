@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "next dev ./app"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/react-next-boilerplate/react-next-boilerplate.git"
@@ -16,6 +13,17 @@
     "url": "https://github.com/react-next-boilerplate/react-next-boilerplate/issues"
   },
   "homepage": "https://github.com/react-next-boilerplate/react-next-boilerplate#readme",
+  "scripts": {
+    "dev": "next dev ./app",
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint --fix .",
+    "lint:staged": "npm run prettier && lint-staged",
+    "prettier": "prettier --ignore-path \"./.prettierignore\" --config .prettierrc --write \"./app/**/*.js\" \"./app/**/*.jsx\""
+  },
+  "lint-staged": {
+    "*.js": "npm run lint:eslint"
+  },
+  "pre-commit": "lint:staged",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.2",
@@ -42,7 +50,9 @@
     "eslint-plugin-jest": "^22.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "lint-staged": "^8.1.3",
     "node-sass": "^4.11.0",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.16.4"
   }
 }
