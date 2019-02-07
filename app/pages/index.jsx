@@ -1,17 +1,17 @@
 import React from 'react';
 
-import styles from './styles.scss';
+import { Trans } from 'react-i18next';
+
+import withI18next from 'utils/with-i18next';
 
 class Index extends React.PureComponent {
   render() {
     return (
-      <div className={styles.root}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis modi
-        unde, sed nihil sapiente numquam ipsam earum rem blanditiis totam
-        aperiam error, assumenda vel adipisci. Unde velit aliquid autem ratione.
+      <div>
+        <Trans i18nKey="common:default" />
       </div>
     );
   }
 }
 
-export default Index;
+export default withI18next()(Index);
