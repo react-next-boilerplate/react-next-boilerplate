@@ -1,0 +1,40 @@
+module.exports = {
+  collectCoverageFrom: [
+    'app/**/*.{js,jsx,mjs}',
+    '!app/pages/_*.js',
+    '!config/**',
+    '!coverage/**',
+    '!app/.next/**',
+    '!server/**',
+    '!app/utils/request.js',
+    '!app/utils/theme-ui.js',
+    '!app/utils/baas-request.js',
+    '!app/utils/get-page-context.js',
+    '!app/utils/with-redux-store.js',
+    '!app/utils/i18n.js',
+    '!app/utils/with-i18next.js',
+  ],
+  testPathIgnorePatterns: [
+    '<rootDir>/app/.next',
+    '<rootDir>/node_modules/',
+    '<rootDir>/config/',
+    '<rootDir>/coverage/',
+    '<rootDir>/server/',
+  ],
+  coverageThreshold: {
+    global: {
+      statements: 90,
+      branches: 90,
+      functions: 90,
+      lines: 90,
+    },
+  },
+  moduleDirectories: ['node_modules', 'app'],
+  transform: {
+    '^.+\\.(js|jsx|mjs)$': '<rootDir>/node_modules/babel-jest',
+    '^.+\\.css$': '<rootDir>/config/jest/css-transform.js',
+    '^(?!.*\\.(js|jsx|mjs|css|json)$)': '<rootDir>/config/jest/file-transform.js',
+  },
+  testRegex: 'tests/.*\\.test\\.js$',
+  snapshotSerializers: [],
+};

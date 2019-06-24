@@ -1,0 +1,35 @@
+{
+  "env": {
+    "development": {
+      "presets": ["next/babel"]
+    },
+    "production": {
+      "presets": ["next/babel"]
+    },
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false
+          }
+        ],
+        "@babel/preset-react"
+      ],
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs",
+        "dynamic-import-node",
+        "@babel/plugin-proposal-class-properties"
+      ]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./app"],
+        "modules": ["app"]
+      }
+    ]
+  ]
+}
