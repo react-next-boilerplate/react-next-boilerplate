@@ -5,7 +5,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import { render } from 'react-testing-library';
+import { render } from '@testing-library/react';
 
 import configureStore from '../configure-store';
 import injectReducer, { useInjectReducer } from '../inject-reducer';
