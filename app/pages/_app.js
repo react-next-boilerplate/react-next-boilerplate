@@ -6,12 +6,13 @@ import Head from 'next/head';
 import App from 'next/app';
 
 import withReduxStore from 'utils/with-redux-store';
+import { appWithTranslation } from 'utils/with-i18next';
 
 class Srr extends App {
   render() {
     const { Component, pageProps, reduxStore } = this.props;
     return (
-      <>
+      <React.Fragment>
         <Head>
           <title>react-next-boilerplate</title>
         </Head>
@@ -19,9 +20,9 @@ class Srr extends App {
         <Provider store={reduxStore}>
           <Component {...pageProps} />
         </Provider>
-      </>
+      </React.Fragment>
     );
   }
 }
 
-export default withReduxStore(Srr);
+export default appWithTranslation(withReduxStore(Srr));

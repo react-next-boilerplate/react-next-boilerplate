@@ -1,23 +1,33 @@
 import React from 'react';
-
-import { Trans } from 'react-i18next';
+import PropTypes from 'prop-types';
 
 import Home from 'containers/Home';
-
-import withI18next from 'utils/with-i18next';
+import { i18n, withTranslation } from 'utils/with-i18next';
 
 class IndexPage extends React.PureComponent {
   render() {
+    const { t } = this.props;
+
     return (
       <div>
-        <Home />
+        <button type="button" onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en')}>
+          {t('change-locale')}
+        </button>
 
-        <span>
-          <Trans i18nKey="common:default" />
-        </span>
+        <span>{t('default')}</span>
+
+        <Home />
       </div>
     );
   }
 }
 
-export default withI18next()(IndexPage);
+IndexPage.propTypes = {
+  t: PropTypes.func,
+};
+
+IndexPage.getInitialProps = async () => ({
+  namespacesRequired: ['common'],
+});
+
+export default withTranslation('common')(IndexPage);

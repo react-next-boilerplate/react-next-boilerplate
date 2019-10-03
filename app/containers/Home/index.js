@@ -1,20 +1,20 @@
 import React, { memo, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import { translate, Trans } from 'react-i18next';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
-import { useInjectReducer } from '../../utils/inject-reducer';
-import { useInjectSaga } from '../../utils/inject-saga';
+import { useInjectReducer } from 'utils/inject-reducer';
+import { useInjectSaga } from 'utils/inject-saga';
+import { withTranslation } from 'utils/with-i18next';
 
 import saga from './saga';
 import reducer from './reducer';
 import { getDataUsers } from './actions';
 import { makeSelectData } from './selectors';
 
-export function Home({ dataUsers, getDataUsers }) {
+export function Home({ dataUsers, getDataUsers, t }) {
   useInjectSaga({ key: 'example', saga });
   useInjectReducer({ key: 'example', reducer });
 
@@ -41,7 +41,7 @@ export function Home({ dataUsers, getDataUsers }) {
             <img src={user.avatar} alt="" style={{ borderRadius: '50%' }} />
             <span>{`Full Name: ${user.first_name} ${user.last_name}`}</span>
 
-            <Trans i18nKey="common:default" />
+            {t('default')}
           </div>
         ))
       )}
@@ -63,6 +63,7 @@ const withConnect = connect(
 );
 
 Home.propTypes = {
+  t: PropTypes.func,
   dataUsers: PropTypes.object,
   getDataUsers: PropTypes.func,
 };
@@ -70,5 +71,5 @@ Home.propTypes = {
 export default compose(
   withConnect,
   memo,
-  translate('common')
+  withTranslation('common')
 )(Home);
