@@ -8,4 +8,7 @@ module.exports = withSass({
     importLoaders: 1,
     localIdentName: '[local]___[hash:base64:5]',
   },
+  publicRuntimeConfig: {
+    localeSubpaths: 'none',
+  },
 });
