@@ -54,3 +54,7 @@ Thank you for being interested in contributing! We are very happy that you want 
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2019 Jorge Luis Calleja Alvarado. For more information see `LICENSE.md`.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
