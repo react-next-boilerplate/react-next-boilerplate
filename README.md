@@ -8,6 +8,17 @@
 <br />
 
 <div align="center">
+  <!-- Build Status -->
+  <a href="https://travis-ci.org/react-next-boilerplate/react-next-boilerplate">
+    <img src="https://img.shields.io/travis/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Build Status" />
+  </a>
+  <!-- Test Coverage -->
+  <a href="https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate">
+    <img src="https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Test Coverage" />
+  </a>
+</a>
+
+<div align="center">
   <sub>:rocket: A basis for reducing the configuration of your projects with <strong>Next.js</Strong>, best development practices and popular libraries in the developer community.</sub>
 </div>
 
