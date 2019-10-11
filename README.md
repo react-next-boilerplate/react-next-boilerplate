@@ -47,7 +47,9 @@
 
 Now you're ready to rumble!
 
-[contributing](./CONTRIBUTING.md)
+## Contributing
+
+Feel like contributing? That's awesome! We have a [contributing](./CONTRIBUTING.md) guide to help guide you.
 
 ## License
 
