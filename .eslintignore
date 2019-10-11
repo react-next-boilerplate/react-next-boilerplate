@@ -7,3 +7,5 @@ coverage/
 .DS_Store
 npm-debug.log
 app/.next/
+
+next-seo.config.js
