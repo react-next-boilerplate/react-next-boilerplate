@@ -49,7 +49,7 @@ Now you're ready to rumble!
 
 ## Contributing
 
-Feel like contributing? That's awesome! We have a [contributing](./CONTRIBUTING.md) guide to help guide you.
+Thank you for being interested in contributing! We are very happy that you want to help!, We have a [contributing](./CONTRIBUTING.md) guide For that.
 
 ## License
 
