@@ -8,7 +8,7 @@
 <br />
 
 <div align="center">
-  <sub>This boilerplate make it easier to get started with a well-structured Next.js application.</sub>
+  <sub>:rocket: A basis for reducing the configuration of your projects with <strong>Next.js</Strong>, best development practices and popular libraries in the developer community.</sub>
 </div>
 
 ### Features
