@@ -1,0 +1,26 @@
+language: node_js
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+notifications:
+  email:
+    - jorgelca1205@gmail.com
+
+node_js:
+  - '8'
+  - '10'
+
+install:
+  - yarn
+
+jobs:
+  include:
+    - stage: yarn
+      script:
+        - yarn
+
+branches:
+  only: master
