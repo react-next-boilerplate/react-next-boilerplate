@@ -16,6 +16,11 @@
   <a href="https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate">
     <img src="https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Test Coverage" />
   </a>
+  
+  <!-- Quality -->
+  <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
+    <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Test Coverage" />
+  </a>
 </div>
 
 <div align="center">
