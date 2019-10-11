@@ -13,6 +13,8 @@ module.exports = {
     '!app/utils/with-redux-store.js',
     '!app/utils/i18n.js',
     '!app/utils/with-i18next.js',
+    '!<rootDir>/app/containers/**',
+    '!<rootDir>/app/pages/**',
   ],
   testPathIgnorePatterns: [
     '<rootDir>/app/.next',
