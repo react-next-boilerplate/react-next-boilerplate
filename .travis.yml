@@ -21,15 +21,16 @@ jobs:
     - stage: dependencies
       script:
         - yarn
-    - stage: coveralls
-      script:
-        - yarn coveralls
+
     - stage: prettier
       script:
         - yarn prettier
+
     - stage: lint
       script:
         - yarn lint
+
+after_success: 'yarn coveralls'
 
 branches:
   only: master
