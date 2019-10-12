@@ -30,12 +30,12 @@
 ## Features
 
 - **redux-saga**: Is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
-- **next-i18next**: Is a plugin for [Next.js](https://nextjs.org/) projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with codesplitting, etc.
+- **next-i18next**: Is a plugin for [Next.js](https://nextjs.org/) projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with code splitting, etc.
 - **i18next**: Is an internationalization-framework written in and for JavaScript. But it's much more than that.
 - **redux**: is a predictable state container for JavaScript apps.
 - **reselect**: Simple “selector” library for Redux (and others) inspired by getters in [NuclearJS](https://optimizely.github.io/nuclear-js/), subscriptions in re-frame and this proposal from speedskater.
 - **@testing-library/react**: Simple and complete React DOM testing utilities that encourage good testing practices.
-- **SEO**: The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors that are key to good ranking on Google and other search engines.
+- **SEO**: The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimization (SEO) factors that are key to good ranking on Google and other search engines.
 
 ## Quick start
 
