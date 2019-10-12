@@ -2,7 +2,7 @@
 
 Below you'll find guides on the `react-next-boilerplate` community, code of conduct, and how to get started contributing:
 
-We really like React and some things that I see excellent is its cominity, so I think I would like to use some [Gatsby Contributor Covenant Code of Conduct](https://www.gatsbyjs.org/contributing/code-of-conduct/)
+We really like React and some things that we think is excellent is its community, so I think I would like to use some [Gatsby Contributor Covenant Code of Conduct](https://www.gatsbyjs.org/contributing/code-of-conduct/)
 
 ## Our Standards
 
