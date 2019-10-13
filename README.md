@@ -10,21 +10,21 @@
 <div align="center">
   <!-- Build Status -->
   <a href="https://travis-ci.org/react-next-boilerplate/react-next-boilerplate">
-    <img src="https://img.shields.io/travis/react-next-boilerplate/react-next-boilerplate?style=for-the-badge" alt="Build Status" />
+    <img src="https://img.shields.io/travis/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Build Status" />
   </a>
   <!-- Test Coverage -->
   <a href="https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate">
-    <img src="https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate?style=for-the-badge" alt="Test Coverage" />
+    <img src="https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Test Coverage" />
   </a>
   
   <!-- Quality -->
   <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
-    <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=for-the-badge" alt="Test Coverage" />
+    <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Test Coverage" />
   </a>
   
   <!-- MIT -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=for-the-badge" alt="MIT" />
+    <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="MIT" />
   </a>
 </div>
 
