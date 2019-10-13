@@ -21,6 +21,11 @@
   <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
     <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Test Coverage" />
   </a>
+  
+  <!-- MIT -->
+  <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=for-the-badge" alt="MIT" />
+  </a>
 </div>
 
 <div align="center">
