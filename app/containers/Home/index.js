@@ -7,7 +7,8 @@ import { createStructuredSelector } from 'reselect';
 
 import { useInjectReducer } from 'utils/inject-reducer';
 import { useInjectSaga } from 'utils/inject-saga';
-import { withTranslation } from 'utils/with-i18next';
+
+import Layout from 'components/Layout';
 
 import saga from './saga';
 import reducer from './reducer';
@@ -23,7 +24,7 @@ export function Home({ dataUsers, getDataUsers, t }) {
   }, []);
 
   return (
-    <div>
+    <Layout>
       {dataUsers.loading ? (
         <span>Loading...</span>
       ) : (
@@ -45,7 +46,7 @@ export function Home({ dataUsers, getDataUsers, t }) {
           </div>
         ))
       )}
-    </div>
+    </Layout>
   );
 }
 
@@ -70,6 +71,5 @@ Home.propTypes = {
 
 export default compose(
   withConnect,
-  memo,
-  withTranslation('common')
+  memo
 )(Home);

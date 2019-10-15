@@ -9,8 +9,8 @@ const localeSubpathMapping = {
   en: EN,
   es: ES,
   all: {
-    EN,
-    ES,
+    en: EN,
+    es: ES,
   },
 };
 

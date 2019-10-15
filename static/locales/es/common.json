@@ -1,3 +1,7 @@
 {
-  "default": "mensaje en español"
+  "default": "mensaje en español",
+  "languages": {
+    "es": "Español",
+    "en": "Inglés"
+  }
 }

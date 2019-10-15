@@ -9,6 +9,6 @@ module.exports = withSass({
     localIdentName: '[local]___[hash:base64:5]',
   },
   publicRuntimeConfig: {
-    localeSubpaths: 'none',
+    localeSubpaths: 'all',
   },
 });
