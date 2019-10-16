@@ -20,6 +20,7 @@ const Title = styled('h1')`
 const SubTitle = styled('h2')`
   font-size: 20px;
   margin: 0;
+  font-weight: 300;
 `;
 
 const Logo = styled('img')`
