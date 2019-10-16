@@ -16,12 +16,12 @@
   <a href="https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate">
     <img src="https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Test Coverage" />
   </a>
-  
+
   <!-- Quality -->
   <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
     <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Test Coverage" />
   </a>
-  
+
   <!-- MIT -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="MIT" />
@@ -40,7 +40,8 @@
 - **redux**: Is a predictable state container for JavaScript apps.
 - **reselect**: Simple “selector” library for Redux (and others) inspired by getters in [NuclearJS](https://optimizely.github.io/nuclear-js/), subscriptions in re-frame and this proposal from speedskater.
 - **@testing-library/react**: Simple and complete React DOM testing utilities that encourage good testing practices.
-- **SEO**: The advantage of this approach is the ability to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors, which are key to a good ranking on Google and other search engines.
+- **SEO**: The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors that are key to good ranking on Google and other search engines.
+- **Typefaces**: Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.
 
 ## Quick start
 
