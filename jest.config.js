@@ -11,7 +11,7 @@ module.exports = {
     '!app/utils/baas-request.js',
     '!app/utils/get-page-context.js',
     '!app/utils/with-redux-store.js',
-    '!app/utils/i18n.js',
+    '!<rootDir>/i18n.js',
     '!app/utils/with-i18next.js',
     '!<rootDir>/app/containers/**',
     '!<rootDir>/app/pages/**',

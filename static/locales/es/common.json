@@ -3,5 +3,9 @@
   "languages": {
     "es": "Español",
     "en": "Inglés"
+  },
+  "phrases": {
+    "features": "Caracteristicas",
+    "apiExample": "Ejemplo con api"
   }
 }

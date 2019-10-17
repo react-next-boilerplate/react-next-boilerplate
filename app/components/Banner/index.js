@@ -27,7 +27,7 @@ const Logo = styled('img')`
   width: 110px;
 `;
 
-function Banner({ t }) {
+export function Banner({ t }) {
   return (
     <BannerRoot>
       <Logo src="/static/images/reac-next-boilerplate-logo.svg" alt="react-next-boilerplate" />

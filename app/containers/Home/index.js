@@ -27,6 +27,21 @@ export function Home({ getDataUsers }) {
   return (
     <Layout>
       <Features />
+
+      <div id="exampleGetApi">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eos, dolorum debitis recusandae fuga, ipsa ad
+        incidunt cumque possimus ipsam ipsum maiores itaque, deserunt dignissimos ea, soluta reiciendis distinctio.
+        Alias.
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque deleniti quis, blanditiis facere
+          asperiores dolore ipsa corrupti placeat alias eveniet ipsam earum! Repellendus ad a, nemo fuga ab perferendis.
+        </div>
+        <div>
+          Impedit necessitatibus neque fugit quibusdam autem iste excepturi nihil, molestiae obcaecati mollitia aperiam
+          voluptatibus officiis veniam consectetur quam omnis consequatur dolorum ducimus velit debitis voluptatem!
+          Nulla nemo eligendi dolorem, molestiae.
+        </div>
+      </div>
     </Layout>
   );
 }

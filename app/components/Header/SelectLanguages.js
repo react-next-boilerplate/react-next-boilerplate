@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import styled from '@emotion/styled';
 
-import { i18n, withTranslation } from 'utils/with-i18next';
+import { i18n } from 'utils/with-i18next';
 
 const SelectRoot = styled('select')`
   border-radius: 4px;
@@ -35,4 +35,4 @@ SelectLanguages.propTypes = {
   t: PropTypes.func,
 };
 
-export default withTranslation('common')(SelectLanguages);
+export default SelectLanguages;

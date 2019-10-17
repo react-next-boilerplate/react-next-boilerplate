@@ -1,6 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import Link from 'next/link';
 
 import styled from '@emotion/styled';
+
+import { withTranslation } from 'utils/with-i18next';
 
 import SelectLanguages from './SelectLanguages';
 
@@ -39,6 +44,11 @@ const ItemLink = styled('a')`
   margin-left: -5px;
   margin-right: 2rem;
   padding: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: #000;
+  }
 `;
 
 const ListActions = styled('div')`
@@ -49,20 +59,25 @@ const Space = styled('div')`
   flex: 1 1 auto;
 `;
 
-function Header() {
+function Header({ t }) {
   return (
     <HeaderRoot>
       <HeaderContainer>
         <NavRoot>
           <ListItem>
-            <ItemLink href="">Feature</ItemLink>
-            <ItemLink href="">Features</ItemLink>
+            <Link href="#features">
+              <ItemLink>{t('phrases.features')}</ItemLink>
+            </Link>
+
+            <Link href="#exampleGetApi">
+              <ItemLink>{t('phrases.apiExample')}</ItemLink>
+            </Link>
           </ListItem>
 
           <Space />
 
           <ListActions>
-            <SelectLanguages />
+            <SelectLanguages t={t} />
           </ListActions>
         </NavRoot>
       </HeaderContainer>
@@ -70,4 +85,8 @@ function Header() {
   );
 }
 
-export default Header;
+Header.propTypes = {
+  t: PropTypes.func,
+};
+
+export default withTranslation('common')(Header);

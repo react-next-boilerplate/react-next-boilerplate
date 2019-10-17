@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> Should render correctly 1`] = `
+<div>
+  <div
+    class="css-12g2fob-BannerRoot e1alx0b60"
+  >
+    <img
+      alt="react-next-boilerplate"
+      class="css-1gb4ms7-Logo e1alx0b63"
+      src="/static/images/reac-next-boilerplate-logo.svg"
+    />
+    <h1
+      class="css-3j23gb-Title e1alx0b61"
+    />
+    <h2
+      class="css-15g2rhr-SubTitle e1alx0b62"
+    />
+  </div>
+</div>
+`;
