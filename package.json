@@ -40,7 +40,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-i18next": "7.10.1",
     "react-redux": "7.0.2",
     "redux": "4.0.1",
     "redux-form": "^8.2.4",
@@ -81,6 +80,7 @@
     "jest-cli": "^24.8.0",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.8.6",
-    "url-loader": "^2.2.0"
+    "url-loader": "^2.2.0",
+    "whatwg-fetch": "^3.0.0"
   }
 }
