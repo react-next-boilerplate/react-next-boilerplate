@@ -6,6 +6,7 @@
   },
   "phrases": {
     "features": "Caracteristicas",
-    "apiExample": "Ejemplo con api"
+    "apiExample": "Ejemplo con api",
+    "getShowcases": "Empresas / Sitios que usan Next.js"
   }
 }

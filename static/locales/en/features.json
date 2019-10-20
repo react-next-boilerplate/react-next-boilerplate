@@ -7,6 +7,7 @@
     "redux": "Is a predictable state container for JavaScript apps.",
     "reselect": "Simple “selector” library for Redux (and others) inspired by getters in NuclearJS, subscriptions in re-frame and this proposal from speedskater.",
     "testingLibraryReact": "Simple and complete React DOM testing utilities that encourage good testing practices.",
-    "typefaces": "Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request."
+    "typefaces": "Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.",
+    "emotion": "Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities."
   }
 }
