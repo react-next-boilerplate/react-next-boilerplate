@@ -1,5 +1,8 @@
 const NextI18Next = require('next-i18next').default;
-const { localeSubpaths } = require('next/config').default().publicRuntimeConfig;
+const config = require('next/config').default();
+const get = require('lodash/get');
+
+const localeSubpaths = get(config, 'publicRuntimeConfig.localeSubpaths', 'none');
 
 const EN = 'en';
 const ES = 'es';

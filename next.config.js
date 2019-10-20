@@ -18,6 +18,6 @@ module.exports = withCss({
     return config;
   },
   publicRuntimeConfig: {
-    localeSubpaths: 'all',
+    localeSubpaths: typeof process.env.LOCALE_SUBPATHS === 'string' ? process.env.LOCALE_SUBPATHS : 'all',
   },
 });
