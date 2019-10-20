@@ -42,6 +42,7 @@
 - **@testing-library/react**: Simple and complete React DOM testing utilities that encourage good testing practices.
 - **SEO**: The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors that are key to good ranking on Google and other search engines.
 - **Typefaces**: Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.
+- **Emotion**: Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities.
 
 ## Quick start
 
