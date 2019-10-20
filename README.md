@@ -19,7 +19,12 @@
 
   <!-- Quality -->
   <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
-    <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Test Coverage" />
+    <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Quality" />
+  </a>
+
+  <!-- Community -->
+  <a href="https://spectrum.chat/react-next-boilerplate">
+    <img src="https://img.shields.io/badge/Join%20the%20community-on%20Spectrum-%237b16ff?style=flat-square" alt="Spectrum" />
   </a>
 
   <!-- MIT -->
