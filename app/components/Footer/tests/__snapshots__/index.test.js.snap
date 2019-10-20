@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Should render correctly 1`] = `
+<div>
+  <footer
+    class="jsx-898115948 root"
+  >
+    <div
+      class="jsx-898115948 container"
+    >
+      <div
+        class="jsx-898115948 row"
+      >
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/server-side-rendering"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          SSR
+        </a>
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/static-exporting"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Static Exporting
+        </a>
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/css-in-js"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          CSS-in-JS
+        </a>
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/progressive-web-apps"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          PWA
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Showcases /> Should render correctly 1`] = `
+<div>
+  <div
+    class="css-ycbew2-Container e5cci2w0"
+    id="exampleGetApi"
+  >
+    <button
+      class="css-uhhjao-ButonGetApi e5cci2w1"
+    />
+    <div
+      class="css-163hlbu-ShowcasesRow e5cci2w2"
+    >
+      <div
+        class="css-ia0ar9-ShowcasesItem e5cci2w3"
+      >
+        <img
+          alt="Auth0\\""
+          class="css-1vdkejz-ImgSrc e5cci2w4"
+          src="https://nextjs.org/static/images/showcases/auth0.jpg"
+        />
+        <h3
+          class="css-dzfune-Title e5cci2w5"
+        >
+          Auth0"
+        </h3>
+        <a
+          class="css-1kiblre-LinkShoucase e5cci2w6"
+          href="https://auth0.com/"
+          target="_blank"
+        >
+          https://auth0.com/
+        </a>
+      </div>
+      <div
+        class="css-ia0ar9-ShowcasesItem e5cci2w3"
+      >
+        <img
+          alt="LEGO for Kids"
+          class="css-1vdkejz-ImgSrc e5cci2w4"
+          src="https://nextjs.org/static/images/showcases/lego.jpg"
+        />
+        <h3
+          class="css-dzfune-Title e5cci2w5"
+        >
+          LEGO for Kids
+        </h3>
+        <a
+          class="css-1kiblre-LinkShoucase e5cci2w6"
+          href="https://www.lego.com/en-us/kids"
+          target="_blank"
+        >
+          https://www.lego.com/en-us/kids
+        </a>
+      </div>
+      <div
+        class="css-ia0ar9-ShowcasesItem e5cci2w3"
+      >
+        <img
+          alt="Netflix Jobs"
+          class="css-1vdkejz-ImgSrc e5cci2w4"
+          src="https://nextjs.org/static/images/showcases/showcases-02.jpg"
+        />
+        <h3
+          class="css-dzfune-Title e5cci2w5"
+        >
+          Netflix Jobs
+        </h3>
+        <a
+          class="css-1kiblre-LinkShoucase e5cci2w6"
+          href="https://jobs.netflix.com"
+          target="_blank"
+        >
+          https://jobs.netflix.com
+        </a>
+      </div>
+      <div
+        class="css-ia0ar9-ShowcasesItem e5cci2w3"
+      >
+        <img
+          alt="Starbucks Reserve"
+          class="css-1vdkejz-ImgSrc e5cci2w4"
+          src="https://nextjs.org/static/images/showcases/starbucksreserve.jpg"
+        />
+        <h3
+          class="css-dzfune-Title e5cci2w5"
+        >
+          Starbucks Reserve
+        </h3>
+        <a
+          class="css-1kiblre-LinkShoucase e5cci2w6"
+          href="https://www.starbucksreserve.com/en-us"
+          target="_blank"
+        >
+          https://www.starbucksreserve.com/en-us
+        </a>
+      </div>
+      <div
+        class="css-ia0ar9-ShowcasesItem e5cci2w3"
+      >
+        <img
+          alt="Twitch"
+          class="css-1vdkejz-ImgSrc e5cci2w4"
+          src="https://nextjs.org/static/images/showcases/twitch.jpg"
+        />
+        <h3
+          class="css-dzfune-Title e5cci2w5"
+        >
+          Twitch
+        </h3>
+        <a
+          class="css-1kiblre-LinkShoucase e5cci2w6"
+          href="https://m.twitch.tv"
+          target="_blank"
+        >
+          https://m.twitch.tv
+        </a>
+      </div>
+      <div
+        class="css-ia0ar9-ShowcasesItem e5cci2w3"
+      >
+        <img
+          alt="Uber Marketplace"
+          class="css-1vdkejz-ImgSrc e5cci2w4"
+          src="https://nextjs.org/static/images/showcases/underbelly.jpg"
+        />
+        <h3
+          class="css-dzfune-Title e5cci2w5"
+        >
+          Uber Marketplace
+        </h3>
+        <a
+          class="css-1kiblre-LinkShoucase e5cci2w6"
+          href="https://marketplace.uber.com/"
+          target="_blank"
+        >
+          https://marketplace.uber.com/
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Showcases /> When props.loading is true must render component <Spiner /> 1`] = `
+<div>
+  <div
+    class="css-d9vn3c-SpinnerRoot en65ycl0"
+  />
+</div>
+`;

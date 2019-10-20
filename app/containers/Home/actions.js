@@ -1,5 +1,5 @@
 import { createRoutine } from 'redux-saga-routines';
 
-import { GET_DATA_USERS } from './constants';
+import { GET_SHOWCASES } from './constants';
 
-export const getDataUsers = createRoutine(GET_DATA_USERS);
+export const getShowcases = createRoutine(GET_SHOWCASES);

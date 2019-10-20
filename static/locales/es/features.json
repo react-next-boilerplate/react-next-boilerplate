@@ -1,0 +1,13 @@
+{
+  "features": {
+    "seo": "La ventaja de este enfoque es la capacidad de crear experiencias de usuario enriquecido de manera uniforme, sin comprometer los factores de optimización del motor de búsqueda (SEO), que son clave para una buena clasificación en Google y otros motores de búsqueda.",
+    "reduxSaga": "Es una biblioteca que tiene como objetivo hacer que los efectos secundarios de la aplicación (es decir, cosas asincrónicas como la obtención de datos y cosas impuras como acceder a la memoria caché del navegador) sean más fáciles de administrar, más eficientes de ejecutar, fáciles de probar y mejores para manejar fallas.",
+    "nextI18next": "Es un complemento para proyectos de Next.js que le permite obtener traducciones en funcionamiento de manera rápida y fácil, mientras que admite totalmente SSR, múltiples espacios de nombres con división de código, etc.",
+    "i18next": "Es un marco de internacionalización escrito en y para JavaScript. Pero es mucho más que eso.",
+    "redux": "Es un contenedor de estado predecible para aplicaciones JavaScript.",
+    "reselect": "Biblioteca simple selector para Redux (y otros) inspirada en getters en NuclearJS, suscripciones en re-frame y esta propuesta de speedkater.",
+    "testingLibraryReact": "Utilidades de prueba de React DOM simples y completas que fomentan buenas prácticas de prueba.",
+    "typefaces": "El autohospedaje es significativamente más rápido. Carga de un tipo de letra de Google Fonts u otro servicio de fuentes alojado agrega una solicitud de red adicional (bloqueo).",
+    "emotion": "Emotion es una biblioteca diseñada para escribir estilos CSS con JavaScript. Proporciona una composición de estilo potente y predecible además de una excelente experiencia de desarrollador con características como mapas de origen, etiquetas y utilidades de prueba."
+  }
+}

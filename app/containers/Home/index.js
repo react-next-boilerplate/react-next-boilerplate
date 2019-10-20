@@ -1,4 +1,4 @@
-import React, { memo, useEffect } from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 
 import { compose } from 'redux';
@@ -7,54 +7,35 @@ import { createStructuredSelector } from 'reselect';
 
 import { useInjectReducer } from 'utils/inject-reducer';
 import { useInjectSaga } from 'utils/inject-saga';
-import { withTranslation } from 'utils/with-i18next';
+
+import Layout from 'components/Layout';
+import Features from 'components/Features';
+import Showcases from 'components/Showcases';
 
 import saga from './saga';
 import reducer from './reducer';
-import { getDataUsers } from './actions';
-import { makeSelectData } from './selectors';
+import { getShowcases } from './actions';
+import { selectShowcases } from './selectors';
 
-export function Home({ dataUsers, getDataUsers, t }) {
-  useInjectSaga({ key: 'example', saga });
-  useInjectReducer({ key: 'example', reducer });
-
-  useEffect(() => {
-    getDataUsers();
-  }, []);
+export function Home({ getShowcases, showcasesData }) {
+  useInjectSaga({ key: 'showcases', saga });
+  useInjectReducer({ key: 'showcases', reducer });
 
   return (
-    <div>
-      {dataUsers.loading ? (
-        <span>Loading...</span>
-      ) : (
-        dataUsers.loadend &&
-        dataUsers.users.data.map(user => (
-          <div
-            key={user.id}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              margin: '10px',
-            }}>
-            <img src={user.avatar} alt="" style={{ borderRadius: '50%' }} />
-            <span>{`Full Name: ${user.first_name} ${user.last_name}`}</span>
+    <Layout>
+      <Features />
 
-            {t('default')}
-          </div>
-        ))
-      )}
-    </div>
+      <Showcases onGetShowcases={getShowcases} data={showcasesData} />
+    </Layout>
   );
 }
 
 const mapStateToProps = createStructuredSelector({
-  dataUsers: makeSelectData(),
+  showcasesData: selectShowcases(),
 });
 
 export function mapDispatchToProps(dispatch) {
-  return { getDataUsers: () => dispatch(getDataUsers()) };
+  return { getShowcases: () => dispatch(getShowcases()) };
 }
 
 const withConnect = connect(
@@ -63,13 +44,11 @@ const withConnect = connect(
 );
 
 Home.propTypes = {
-  t: PropTypes.func,
-  dataUsers: PropTypes.object,
-  getDataUsers: PropTypes.func,
+  showcasesData: PropTypes.object,
+  getShowcases: PropTypes.func,
 };
 
 export default compose(
   withConnect,
-  memo,
-  withTranslation('common')
+  memo
 )(Home);

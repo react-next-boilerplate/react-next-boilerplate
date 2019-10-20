@@ -1,9 +1,13 @@
 import { createSelector } from 'reselect';
 
-export const selectUsersDomain = state => state.example;
+import { initialState } from './reducer';
 
-export const makeSelectData = () =>
+const selectShowcasesDomain = state => state.showcases || initialState;
+
+const selectShowcases = () =>
   createSelector(
-    selectUsersDomain,
-    subState => subState || {}
+    selectShowcasesDomain,
+    subState => subState
   );
+
+export { selectShowcases, selectShowcasesDomain };

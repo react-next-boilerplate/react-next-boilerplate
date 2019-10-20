@@ -1,0 +1,13 @@
+{
+  "features": {
+    "seo": "The advantage of this approach is the ability to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors, which are key to a good ranking on Google and other search engines.",
+    "reduxSaga": "Is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.",
+    "nextI18next": "Is a plugin for Next.js projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with code splitting, etc.",
+    "i18next": "Is an internationalization-framework written in and for JavaScript. But it's much more than that.",
+    "redux": "Is a predictable state container for JavaScript apps.",
+    "reselect": "Simple “selector” library for Redux (and others) inspired by getters in NuclearJS, subscriptions in re-frame and this proposal from speedskater.",
+    "testingLibraryReact": "Simple and complete React DOM testing utilities that encourage good testing practices.",
+    "typefaces": "Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.",
+    "emotion": "Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities."
+  }
+}

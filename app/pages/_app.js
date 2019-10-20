@@ -8,6 +8,9 @@ import App from 'next/app';
 import withReduxStore from 'utils/with-redux-store';
 import { appWithTranslation } from 'utils/with-i18next';
 
+import 'typeface-metropolis';
+import '@typefaces-pack/typeface-inter';
+
 class Srr extends App {
   render() {
     const { Component, pageProps, reduxStore } = this.props;

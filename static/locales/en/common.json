@@ -1,3 +1,12 @@
 {
-  "default": "Message in english"
+  "default": "Message in english",
+  "languages": {
+    "es": "Spanish",
+    "en": "English"
+  },
+  "phrases": {
+    "features": "Features",
+    "apiExample": "API example",
+    "getShowcases": "Companies / Sites using Next.js"
+  }
 }
