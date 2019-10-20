@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Features /> Should render correctly 1`] = `
+<div>
+  <div
+    class="css-1a7ifp2-Container ejgpa180"
+    id="features"
+  >
+    <div
+      class="css-10nlb9w-FeaturesRoot ejgpa181"
+    >
+      <div
+        class="css-1xnme2u-FeaturesListContainer ejgpa183"
+      >
+        <div
+          class="css-1iwp3y-FeaturesList ejgpa182"
+        >
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              SEO
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              redux-saga
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              next-i18next
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              i18next
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              redux
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              reselect
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              @testing-library/react
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              Typefaces
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+          <div
+            class="css-zinlcv-FeatureItem ejgpa184"
+          >
+            <h3
+              class="css-1w3ees2-Title ejgpa185"
+            >
+              Emotion
+            </h3>
+            <p
+              class="css-6itzcs-Content ejgpa186"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

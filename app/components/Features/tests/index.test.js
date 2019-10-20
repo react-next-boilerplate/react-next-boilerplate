@@ -2,11 +2,13 @@ import React from 'react';
 
 import { render } from '@testing-library/react';
 
-import { Banner } from '..';
+import { Features } from '..';
 
-describe('<Banner />', () => {
+describe('<Features />', () => {
+  const t = jest.fn();
+
   it('Should render correctly', () => {
-    const { container } = render(<Banner t={jest.fn()} />);
+    const { container } = render(<Features t={t} />);
 
     expect(container).toMatchSnapshot();
   });

@@ -1,12 +1,13 @@
 import React from 'react';
-
 import { render } from '@testing-library/react';
 
-import { Banner } from '..';
+import { Header } from '..';
 
-describe('<Banner />', () => {
+describe('<Header />', () => {
+  const spy = jest.fn();
+
   it('Should render correctly', () => {
-    const { container } = render(<Banner t={jest.fn()} />);
+    const { container } = render(<Header t={spy} />);
 
     expect(container).toMatchSnapshot();
   });

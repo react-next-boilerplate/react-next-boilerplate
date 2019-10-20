@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should render correctly 1`] = `
+<div>
+  <header
+    class="css-15etwxy-HeaderRoot e1ghuqy50"
+  >
+    <div
+      class="css-1b1jc49-HeaderContainer e1ghuqy51"
+    >
+      <nav
+        class="css-11njdmq-NavRoot e1ghuqy52"
+      >
+        <div
+          class="css-1hbc6ct-ListItem e1ghuqy53"
+        >
+          <a
+            class="css-sgch7x-ItemLink e1ghuqy54"
+          />
+          <a
+            class="css-sgch7x-ItemLink e1ghuqy54"
+          />
+        </div>
+        <div
+          class="css-13ln5v8-Space e1ghuqy56"
+        />
+        <div
+          class="css-1at58d5-ListActions e1ghuqy55"
+        >
+          <select
+            class="css-1j005nt-SelectRoot eusgkv00"
+            id="languages"
+            name="languages"
+          >
+            <option
+              value="es"
+            />
+            <option
+              value="en"
+            />
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+</div>
+`;
