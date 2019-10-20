@@ -19,8 +19,10 @@ export function SelectLanguages({ t }) {
     i18n.changeLanguage(select);
   }, [select]);
 
-  const handleSelect = evt => {
-    setSelect(evt.target.value);
+  const handleSelect = ev => {
+    ev.preventDefault();
+
+    setSelect(ev.target.value);
   };
 
   return (

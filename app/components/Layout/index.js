@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Header from 'components/Header';
 import Banner from 'components/Banner';
+import Footer from 'components/Footer';
 
 function Layout({ children }) {
   return (
@@ -14,6 +15,8 @@ function Layout({ children }) {
 
         {children}
       </main>
+
+      <Footer />
     </>
   );
 }

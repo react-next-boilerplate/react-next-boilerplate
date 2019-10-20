@@ -47,22 +47,7 @@ const Content = styled('p')`
   line-height: 1.65;
 `;
 
-const ButonGetApi = styled('button')`
-  margin: 0;
-  padding: 0 3.5rem;
-  height: 2.81rem;
-  line-height: 2.8rem;
-  font-size: 16px;
-  font-weight: 300;
-  border-radius: 7px;
-  background-color: #09d3ac;
-  box-shadow: 0 4px 14px 0 rgba(9, 211, 172, 0.35);
-  color: white;
-  cursor: pointer;
-  border: none;
-`;
-
-function Features({ t }) {
+export function Features({ t }) {
   return (
     <Container id="features">
       <FeaturesRoot>
@@ -115,11 +100,15 @@ function Features({ t }) {
 
               <Content>{t('features.typefaces')}</Content>
             </FeatureItem>
+
+            <FeatureItem>
+              <Title>Emotion</Title>
+
+              <Content>{t('features.emotion')}</Content>
+            </FeatureItem>
           </FeaturesList>
         </FeaturesListContainer>
       </FeaturesRoot>
-
-      <ButonGetApi>Get example API</ButonGetApi>
     </Container>
   );
 }

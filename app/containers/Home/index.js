@@ -1,4 +1,4 @@
-import React, { memo, useEffect } from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 
 import { compose } from 'redux';
@@ -10,48 +10,32 @@ import { useInjectSaga } from 'utils/inject-saga';
 
 import Layout from 'components/Layout';
 import Features from 'components/Features';
+import Showcases from 'components/Showcases';
 
 import saga from './saga';
 import reducer from './reducer';
-import { getDataUsers } from './actions';
-import { makeSelectData } from './selectors';
+import { getShowcases } from './actions';
+import { selectShowcases } from './selectors';
 
-export function Home({ getDataUsers }) {
-  useInjectSaga({ key: 'example', saga });
-  useInjectReducer({ key: 'example', reducer });
-
-  useEffect(() => {
-    getDataUsers();
-  }, []);
+export function Home({ getShowcases, showcasesData }) {
+  useInjectSaga({ key: 'showcases', saga });
+  useInjectReducer({ key: 'showcases', reducer });
 
   return (
     <Layout>
       <Features />
 
-      <div id="exampleGetApi">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eos, dolorum debitis recusandae fuga, ipsa ad
-        incidunt cumque possimus ipsam ipsum maiores itaque, deserunt dignissimos ea, soluta reiciendis distinctio.
-        Alias.
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque deleniti quis, blanditiis facere
-          asperiores dolore ipsa corrupti placeat alias eveniet ipsam earum! Repellendus ad a, nemo fuga ab perferendis.
-        </div>
-        <div>
-          Impedit necessitatibus neque fugit quibusdam autem iste excepturi nihil, molestiae obcaecati mollitia aperiam
-          voluptatibus officiis veniam consectetur quam omnis consequatur dolorum ducimus velit debitis voluptatem!
-          Nulla nemo eligendi dolorem, molestiae.
-        </div>
-      </div>
+      <Showcases onGetShowcases={getShowcases} data={showcasesData} />
     </Layout>
   );
 }
 
 const mapStateToProps = createStructuredSelector({
-  dataUsers: makeSelectData(),
+  showcasesData: selectShowcases(),
 });
 
 export function mapDispatchToProps(dispatch) {
-  return { getDataUsers: () => dispatch(getDataUsers()) };
+  return { getShowcases: () => dispatch(getShowcases()) };
 }
 
 const withConnect = connect(
@@ -60,8 +44,8 @@ const withConnect = connect(
 );
 
 Home.propTypes = {
-  dataUsers: PropTypes.object,
-  getDataUsers: PropTypes.func,
+  showcasesData: PropTypes.object,
+  getShowcases: PropTypes.func,
 };
 
 export default compose(

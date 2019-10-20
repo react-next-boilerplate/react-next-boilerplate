@@ -43,8 +43,4 @@ Banner.propTypes = {
   t: PropTypes.func,
 };
 
-Banner.getInitialProps = async () => ({
-  namespacesRequired: ['banner'],
-});
-
 export default withTranslation('banner')(Banner);

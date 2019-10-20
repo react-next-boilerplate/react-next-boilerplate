@@ -1,26 +1,26 @@
-import { getDataUsers } from './actions';
+import { getShowcases } from './actions';
 
-const initialState = {
+export const initialState = {
   loading: false,
-  loadend: false,
+  fetched: false,
   error: null,
-  users: [],
+  showcases: [],
 };
 
-function exampleReducer(state = initialState, { type, payload }) {
+function showcasesReducer(state = initialState, { type, payload }) {
   switch (type) {
-    case getDataUsers.REQUEST:
+    case getShowcases.REQUEST:
       return { ...state, loading: true };
 
-    case getDataUsers.SUCCESS:
-      return { ...state, loading: false, loadend: true, users: payload };
+    case getShowcases.SUCCESS:
+      return { ...state, loading: false, fetched: true, showcases: payload.data };
 
-    case getDataUsers.FAILURE:
-      return { ...state, loading: false, loadend: false, error: payload };
+    case getShowcases.FAILURE:
+      return { ...state, loading: false, fetched: false, error: payload };
 
     default:
       return state;
   }
 }
 
-export default exampleReducer;
+export default showcasesReducer;

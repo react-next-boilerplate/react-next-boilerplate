@@ -1,28 +1,25 @@
 import { takeLatest, put, call } from 'redux-saga/effects';
 
-import { getDataUsers } from './actions';
+import request from 'utils/request';
 
-export function getDataApi() {
-  // eslint-disable-next-line
-  return fetch('https://reqres.in/api/users').then(response => {
-    return response.json();
-  });
-}
+import { getShowcases } from './actions';
 
-export function* getDataRequest() {
+export function* getShowcasesRequest() {
+  const BASE_URL = 'https://us-central1-react-next-boilerplate-cda8b.cloudfunctions.net/getShowcasesData';
+
   try {
-    yield put(getDataUsers.request());
+    yield put(getShowcases.request());
 
-    const data = yield call(getDataApi, {});
+    const showcasesdata = yield call(request, BASE_URL);
 
-    yield put(getDataUsers.success(data));
+    yield put(getShowcases.success(showcasesdata));
   } catch (err) {
-    yield put(getDataUsers.failure(err));
+    yield put(getShowcases.failure(err));
   } finally {
-    yield put(getDataUsers.fulfill());
+    yield put(getShowcases.fulfill());
   }
 }
 
-export default function* dataExample() {
-  yield takeLatest(getDataUsers.TRIGGER, getDataRequest);
+export default function* dataShowcases() {
+  yield takeLatest(getShowcases.TRIGGER, getShowcasesRequest);
 }

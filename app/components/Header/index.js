@@ -59,7 +59,7 @@ const Space = styled('div')`
   flex: 1 1 auto;
 `;
 
-function Header({ t }) {
+export function Header({ t }) {
   return (
     <HeaderRoot>
       <HeaderContainer>
