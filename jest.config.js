@@ -2,7 +2,7 @@ module.exports = {
   collectCoverageFrom: [
     'app/**/*.{js,jsx,mjs}',
     '!app/pages/_*.js',
-    '!config/**',
+    '!<rootDir>/app/pages/**',
     '!coverage/**',
     '!app/.next/**',
     '!server/**',
@@ -12,12 +12,10 @@ module.exports = {
     '!<rootDir>/i18n.js',
     '!<rootDir>/next.config.js',
     '!app/utils/with-i18next.js',
-    '!<rootDir>/app/pages/**',
   ],
   testPathIgnorePatterns: [
     '<rootDir>/app/.next',
     '<rootDir>/node_modules/',
-    '<rootDir>/config/',
     '<rootDir>/next.config.js',
     '<rootDir>/coverage/',
     '<rootDir>/server/',
@@ -31,11 +29,6 @@ module.exports = {
     },
   },
   moduleDirectories: ['node_modules', 'app'],
-  transform: {
-    '^.+\\.(js|jsx|mjs)$': '<rootDir>/node_modules/babel-jest',
-    '^.+\\.css$': '<rootDir>/config/jest/css-transform.js',
-    '^(?!.*\\.(js|jsx|mjs|css|json)$)': '<rootDir>/config/jest/file-transform.js',
-  },
   testRegex: 'tests/.*\\.test\\.js$',
   snapshotSerializers: [],
 };

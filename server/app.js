@@ -9,7 +9,7 @@ const dev = process.env.NODE_ENV !== 'production';
 const nextI18NextMiddleware = require('next-i18next/middleware').default;
 const nextI18next = require('../i18n');
 
-const port = parseInt(process.env.PORT, 10) || 3000;
+const port = process.env.PORT || 3000;
 const app = next({ dir: './app', dev });
 
 const handle = app.getRequestHandler();
