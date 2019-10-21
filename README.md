@@ -59,6 +59,8 @@
 
 Now you're ready to rumble!
 
+### [Demo](https://react-next-boilerplate.herokuapp.com/en)
+
 ## Contributing
 
 Thank you for your interest in contributing! We're delighted you want to help out. We have a [contributing guide](./CONTRIBUTING.md) to help you.
