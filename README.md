@@ -34,7 +34,7 @@
   
   <!-- Contributors -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/react-next-boilerplate/react-next-boilerplate" alt="Contributors" />
+    <img src="https://img.shields.io/github/contributors/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Contributors" />
   </a>
 
 </div>
