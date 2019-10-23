@@ -31,6 +31,12 @@
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="MIT" />
   </a>
+  
+  <!-- Contributors -->
+  <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/react-next-boilerplate/react-next-boilerplate" alt="Contributors" />
+  </a>
+
 </div>
 
 <div align="center">
