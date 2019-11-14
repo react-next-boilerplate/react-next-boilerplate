@@ -50,4 +50,5 @@ you can fork the repository and install parts to run it on your local machine
 - Committing code will run the automated linter using Prettier. To run the linter manually, run an npm script in the project’s base directory:
 - Push your changes to your fork, assuming it is set up as origin.
 - Create an extraction request to the repository of [react-next-boilerplate](https://github.com/react-next-boilerplate/react-next-boilerplate).
+- The development branch is `canary` (this is the branch pull requests should be made against). On a release, the relevant parts of the changes in the `canary` branch are rebased into `master`.
 - Please assign the issues you are closing if this is the case, it would be good to place the correct lips.
