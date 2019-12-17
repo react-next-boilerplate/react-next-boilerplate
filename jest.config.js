@@ -6,8 +6,6 @@ module.exports = {
     '!coverage/**',
     '!app/.next/**',
     '!server/**',
-    '!app/utils/theme-ui.js',
-    '!app/utils/get-page-context.js',
     '!app/utils/with-redux-store.js',
     '!<rootDir>/i18n.js',
     '!<rootDir>/next.config.js',
