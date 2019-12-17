@@ -3,32 +3,32 @@
 exports[`<Header /> Should render correctly 1`] = `
 <div>
   <header
-    class="css-15etwxy-HeaderRoot e1ghuqy50"
+    class="css-w41d0-HeaderRoot e1ghuqy50"
   >
     <div
-      class="css-1b1jc49-HeaderContainer e1ghuqy51"
+      class="css-u5y1t0-HeaderContainer e1ghuqy51"
     >
       <nav
-        class="css-11njdmq-NavRoot e1ghuqy52"
+        class="css-wvyf6s-NavRoot e1ghuqy52"
       >
         <div
-          class="css-1hbc6ct-ListItem e1ghuqy53"
+          class="css-1vw1113-ListItem e1ghuqy53"
         >
           <a
-            class="css-sgch7x-ItemLink e1ghuqy54"
+            class="css-15ani8u-ItemLink e1ghuqy54"
           />
           <a
-            class="css-sgch7x-ItemLink e1ghuqy54"
+            class="css-15ani8u-ItemLink e1ghuqy54"
           />
         </div>
         <div
-          class="css-13ln5v8-Space e1ghuqy56"
+          class="css-kh7q0g-Space e1ghuqy56"
         />
         <div
-          class="css-1at58d5-ListActions e1ghuqy55"
+          class="css-1jbsa08-ListActions e1ghuqy55"
         >
           <select
-            class="css-1j005nt-SelectRoot eusgkv00"
+            class="css-rdesed-SelectRoot eusgkv00"
             id="languages"
             name="languages"
           >
