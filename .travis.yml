@@ -33,4 +33,6 @@ jobs:
 after_success: 'yarn coveralls'
 
 branches:
-  only: master
+  only:
+    - master
+    - canary
