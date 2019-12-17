@@ -38,11 +38,17 @@ export function mapDispatchToProps(dispatch) {
   return { getShowcases: () => dispatch(getShowcases()) };
 }
 
-const withConnect = connect(mapStateToProps, mapDispatchToProps);
+const withConnect = connect(
+  mapStateToProps,
+  mapDispatchToProps
+);
 
 Home.propTypes = {
   showcasesData: PropTypes.object,
   getShowcases: PropTypes.func,
 };
 
-export default compose(withConnect, memo)(Home);
+export default compose(
+  withConnect,
+  memo
+)(Home);
