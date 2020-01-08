@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Features /> Should render correctly 1`] = `
+<div>
+  <div
+    class="css-k8tdx0-Container e18s5a7r0"
+    id="features"
+  >
+    <div
+      class="css-jbe736-FeaturesRoot e18s5a7r1"
+    >
+      <div
+        class="css-1jpy3hs-FeaturesListContainer e18s5a7r3"
+      >
+        <div
+          class="css-dblltl-FeaturesList e18s5a7r2"
+        >
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              SEO
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              redux-saga
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              next-i18next
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              i18next
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              redux
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              reselect
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              @testing-library/react
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              Typefaces
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
+              Emotion
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -15,8 +15,8 @@
     [
       "module-resolver",
       {
-        "root": ["./app"],
-        "modules": ["app"]
+        "root": ["./src"],
+        "modules": ["src"]
       }
     ]
   ]

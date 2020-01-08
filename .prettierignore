@@ -1,5 +1,5 @@
 # Don't check auto-generated stuff into git
-app/.next
+src/.next
 
 node_modules
 .cache
