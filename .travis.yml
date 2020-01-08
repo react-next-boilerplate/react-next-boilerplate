@@ -10,7 +10,6 @@ notifications:
     - jorgelca1205@gmail.com
 
 node_js:
-  - '8'
   - '10'
 
 install:
@@ -34,5 +33,5 @@ after_success: 'yarn coveralls'
 
 branches:
   only:
-    - master
     - canary
+    - master
