@@ -3,36 +3,36 @@
 exports[`<Layout /> Should render correctly 1`] = `
 <div>
   <header
-    class="css-w41d0-HeaderRoot e1ghuqy50"
+    class="css-w41d0-HeaderRoot ez4dfsd0"
   >
     <div
-      class="css-u5y1t0-HeaderContainer e1ghuqy51"
+      class="css-u5y1t0-HeaderContainer ez4dfsd1"
     >
       <nav
-        class="css-wvyf6s-NavRoot e1ghuqy52"
+        class="css-wvyf6s-NavRoot ez4dfsd2"
       >
         <div
-          class="css-1vw1113-ListItem e1ghuqy53"
+          class="css-1vw1113-ListItem ez4dfsd3"
         >
           <a
-            class="css-15ani8u-ItemLink e1ghuqy54"
+            class="css-15ani8u-ItemLink ez4dfsd4"
           >
             phrases.features
           </a>
           <a
-            class="css-15ani8u-ItemLink e1ghuqy54"
+            class="css-15ani8u-ItemLink ez4dfsd4"
           >
             phrases.apiExample
           </a>
         </div>
         <div
-          class="css-kh7q0g-Space e1ghuqy56"
+          class="css-kh7q0g-Space ez4dfsd6"
         />
         <div
-          class="css-1jbsa08-ListActions e1ghuqy55"
+          class="css-1jbsa08-ListActions ez4dfsd5"
         >
           <select
-            class="css-rdesed-SelectRoot eusgkv00"
+            class="css-rdesed-SelectRoot e1ut4ry90"
             id="languages"
             name="languages"
           >
@@ -53,20 +53,20 @@ exports[`<Layout /> Should render correctly 1`] = `
   </header>
   <main>
     <div
-      class="css-1f5wcpk-BannerRoot e1alx0b60"
+      class="css-1f5wcpk-BannerRoot eywty1z0"
     >
       <img
         alt="react-next-boilerplate"
-        class="css-1wov1b9-Logo e1alx0b63"
+        class="css-1wov1b9-Logo eywty1z3"
         src="/static/images/reac-next-boilerplate-logo.svg"
       />
       <h1
-        class="css-1f42zqr-Title e1alx0b61"
+        class="css-1f42zqr-Title eywty1z1"
       >
         title
       </h1>
       <h2
-        class="css-pfcoqg-SubTitle e1alx0b62"
+        class="css-pfcoqg-SubTitle eywty1z2"
       >
         subTitle
       </h2>
