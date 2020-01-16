@@ -30,8 +30,3 @@ jobs:
         - yarn lint
 
 after_success: 'yarn coveralls'
-
-branches:
-  only:
-    - canary
-    - master
