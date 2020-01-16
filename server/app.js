@@ -24,10 +24,10 @@ const signale = new Signale(options);
   const server = express();
 
   server.use(nextI18NextMiddleware(nextI18next));
-  server.use('/static', express.static('static'));
+  server.use('/static', express.static('public/static'));
 
   server.get('*', (req, res) => handle(req, res));
 
   await server.listen(port);
-  signale.success(`<> Ready on localhost:${port}`);
+  signale.success(`<> React Next Boilerplate ready on localhost:${port}`);
 })();
