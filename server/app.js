@@ -10,7 +10,7 @@ const nextI18NextMiddleware = require('next-i18next/middleware').default;
 const nextI18next = require('../i18n');
 
 const port = process.env.PORT || 3000;
-const app = next({ dir: './app', dev });
+const app = next({ dir: './src', dev });
 
 const handle = app.getRequestHandler();
 
@@ -24,10 +24,10 @@ const signale = new Signale(options);
   const server = express();
 
   server.use(nextI18NextMiddleware(nextI18next));
-  server.use('/static', express.static('static'));
+  server.use('/static', express.static('public/static'));
 
   server.get('*', (req, res) => handle(req, res));
 
   await server.listen(port);
-  signale.success(`<> Ready on localhost:${port}`);
+  signale.success(`<> React Next Boilerplate ready on localhost:${port}`);
 })();

@@ -9,7 +9,7 @@
 
 <div align="center">
   <!-- Build Status -->
-  <a href="https://travis-ci.org/react-next-boilerplate/react-next-boilerplate">
+  <a href="https://travis-ci.com/react-next-boilerplate/react-next-boilerplate/builds">
     <img src="https://img.shields.io/travis/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Build Status" />
   </a>
   <!-- Test Coverage -->

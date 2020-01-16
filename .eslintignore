@@ -6,6 +6,6 @@ coverage/
 # Cruft
 .DS_Store
 npm-debug.log
-app/.next/
+src/.next/
 
 next-seo.config.js
