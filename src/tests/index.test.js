@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureStore from 'utils/configure-store';
 
-import { IndexPage } from '..';
+import { IndexPage } from '../pages/index';
 
 describe('<HomePage />', () => {
   let store;

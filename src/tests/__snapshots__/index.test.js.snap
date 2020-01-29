@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match the snapshot 1`] = `
+<div>
+  <header
+    class="css-w41d0-HeaderRoot ez4dfsd0"
+  >
+    <div
+      class="css-u5y1t0-HeaderContainer ez4dfsd1"
+    >
+      <nav
+        class="css-wvyf6s-NavRoot ez4dfsd2"
+      >
+        <div
+          class="css-1vw1113-ListItem ez4dfsd3"
+        >
+          <a
+            class="css-15ani8u-ItemLink ez4dfsd4"
+          >
+            phrases.features
+          </a>
+          <a
+            class="css-15ani8u-ItemLink ez4dfsd4"
+          >
+            phrases.apiExample
+          </a>
+        </div>
+        <div
+          class="css-kh7q0g-Space ez4dfsd6"
+        />
+        <div
+          class="css-1jbsa08-ListActions ez4dfsd5"
+        >
+          <select
+            class="css-rdesed-SelectRoot e1ut4ry90"
+            id="languages"
+            name="languages"
+          >
+            <option
+              value="es"
+            >
+              languages.es
+            </option>
+            <option
+              value="en"
+            >
+              languages.en
+            </option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div
+      class="css-1f5wcpk-BannerRoot eywty1z0"
+    >
+      <img
+        alt="react-next-boilerplate"
+        class="css-1wov1b9-Logo eywty1z3"
+        src="/static/images/reac-next-boilerplate-logo.svg"
+      />
+      <h1
+        class="css-1f42zqr-Title eywty1z1"
+      >
+        title
+      </h1>
+      <h2
+        class="css-pfcoqg-SubTitle eywty1z2"
+      >
+        subTitle
+      </h2>
+    </div>
+    <div
+      class="css-k8tdx0-Container e18s5a7r0"
+      id="features"
+    >
+      <div
+        class="css-jbe736-FeaturesRoot e18s5a7r1"
+      >
+        <div
+          class="css-1jpy3hs-FeaturesListContainer e18s5a7r3"
+        >
+          <div
+            class="css-dblltl-FeaturesList e18s5a7r2"
+          >
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                SEO
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.seo
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                redux-saga
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.reduxSaga
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                next-i18next
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.nextI18next
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                i18next
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.i18next
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                redux
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.redux
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                reselect
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.reselect
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                @testing-library/react
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.testingLibraryReact
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                Typefaces
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.typefaces
+              </p>
+            </div>
+            <div
+              class="css-qup410-FeatureItem e18s5a7r4"
+            >
+              <h3
+                class="css-plrnzz-Title e18s5a7r5"
+              >
+                Emotion
+              </h3>
+              <p
+                class="css-sdcqhn-Content e18s5a7r6"
+              >
+                features.emotion
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-1hvjfqy-Container e1vuap0q0"
+      id="exampleGetApi"
+    >
+      <button
+        class="css-67bxaj-ButonGetApi e1vuap0q1"
+      >
+        phrases.getShowcases
+      </button>
+      <div
+        class="css-1bqe7xb-ShowcasesRow e1vuap0q2"
+      >
+        0
+      </div>
+    </div>
+  </main>
+  <footer
+    class="jsx-898115948 root"
+  >
+    <div
+      class="jsx-898115948 container"
+    >
+      <div
+        class="jsx-898115948 row"
+      >
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/server-side-rendering"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          SSR
+        </a>
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/static-exporting"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Static Exporting
+        </a>
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/css-in-js"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          CSS-in-JS
+        </a>
+        <a
+          class="jsx-898115948 link"
+          href="https://nextjs.org/features/progressive-web-apps"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          PWA
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
