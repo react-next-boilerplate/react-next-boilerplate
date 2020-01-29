@@ -6,6 +6,7 @@
     "i18next": "Es un marco de internacionalización escrito en y para JavaScript. Pero es mucho más que eso.",
     "redux": "Es un contenedor de estado predecible para aplicaciones JavaScript.",
     "reselect": "Biblioteca simple selector para Redux (y otros) inspirada en getters en NuclearJS, suscripciones en re-frame y esta propuesta de speedkater.",
+    "immer": "(Alemán para: siempre) es un pequeño paquete que le permite trabajar con un estado inmutable de una manera más conveniente. Se basa en el mecanismo de copia en escritura.",
     "testingLibraryReact": "Utilidades de prueba de React DOM simples y completas que fomentan buenas prácticas de prueba.",
     "typefaces": "El autohospedaje es significativamente más rápido. Carga de un tipo de letra de Google Fonts u otro servicio de fuentes alojado agrega una solicitud de red adicional (bloqueo).",
     "emotion": "Emotion es una biblioteca diseñada para escribir estilos CSS con JavaScript. Proporciona una composición de estilo potente y predecible además de una excelente experiencia de desarrollador con características como mapas de origen, etiquetas y utilidades de prueba."

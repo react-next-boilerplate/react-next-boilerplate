@@ -15,22 +15,9 @@ node_js:
 install:
   - yarn
 
-jobs:
-  include:
-    - stage: dependencies
-      script:
-        - yarn
-
-    - stage: prettier
-      script:
-        - yarn prettier
-
-    - stage: lint
-      script:
-        - yarn lint
-
-    - stage: test
-      script:
-        - yarn test
+script:
+  - yarn prettier
+  - yarn lint
+  - yarn test
 
 after_success: 'yarn coveralls'
