@@ -29,4 +29,8 @@ jobs:
       script:
         - yarn lint
 
+    - stage: test
+      script:
+        - yarn test
+
 after_success: 'yarn coveralls'
