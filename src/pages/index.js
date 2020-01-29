@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Home from 'containers/Home';
 import { withTranslation } from 'utils/with-i18next';
 
-class IndexPage extends React.PureComponent {
+export class IndexPage extends React.PureComponent {
   render() {
     const { t } = this.props;
 
