@@ -2,7 +2,6 @@ module.exports = {
   collectCoverageFrom: [
     'src/**/*.{js,jsx,mjs}',
     '!src/pages/_*.js',
-    '!<rootDir>/src/pages/**',
     '!coverage/**',
     '!src/.next/**',
     '!server/**',
