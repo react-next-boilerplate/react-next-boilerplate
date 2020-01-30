@@ -4,7 +4,7 @@ export default {
     'A basis for reducing the configuration of your projects with nextJS, best development practices and popular libraries in the developer community.',
   openGraph: {
     url: 'https://github.com/react-next-boilerplate/react-next-boilerplate',
-    title: 'Chakra UI',
+    title: 'React Next Boilerplate',
     description:
       'A basis for reducing the configuration of your projects with nextJS, best development practices and popular libraries in the developer community.',
     images: [
