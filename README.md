@@ -56,12 +56,27 @@
 - **Typefaces**: Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.
 - **Emotion**: A library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities.
 
-## Quick start
+# Getting Started
 
-1. Make sure that you have Node.js v8.15.1 and npm v5 or above installed.
-2. Clone this repo using `git clone --depth=1 https://github.com/react-next-boilerplate/react-next-boilerplate.git <YOUR_PROJECT_NAME>`
-3. Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
-4. Run `npm start` to see the example app at `http://localhost:3000`.
+Welcome to the light documentation of React Next Boilerplate!
+
+## System Requirements
+
+- [Node.js](https://nodejs.org/en/) 10 or later
+- MacOS, Windows (including WSL), and Linux are supported
+
+## Setup
+
+1. Clone this repo using `git clone --depth=1 https://github.com/react-next-boilerplate/react-next-boilerplate.git <YOUR_PROJECT_NAME>`
+2. Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
+3. Run `yarn` or `npm install` to install dependencies .
+4. Run `yarn dev` or `npm run dev` to see the example app at `http://localhost:3000`.
+
+These scripts refer to the different stages of developing an application:
+
+- `dev` - Runs `next` which starts Next.js in development mode
+- `build` - Runs `next` build which builds the application for production usage
+- `start` - Runs `next` start which starts a Next.js production server
 
 Now you're ready to rumble!
 
