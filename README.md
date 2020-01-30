@@ -78,7 +78,7 @@ These scripts refer to the different stages of developing an application:
 - `build` - Runs `next` build which builds the application for production usage
 - `start` - Runs `next` start which starts a Next.js production server
 
-Now you're ready to rumble!
+Now you're ready to rumble! :traffic_light:
 
 ### [Demo](https://react-next-boilerplate.herokuapp.com/en)
 
