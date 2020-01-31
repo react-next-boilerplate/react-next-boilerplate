@@ -13,9 +13,7 @@
     <img src="https://img.shields.io/travis/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Build Status" />
   </a>
   <!-- Test Coverage -->
-  <a href="https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate">
-    <img src="https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Test Coverage" />
-  </a>
+  <a href='https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate?branch=canary'><img src='https://coveralls.io/repos/github/react-next-boilerplate/react-next-boilerplate/badge.svg?branch=canary' alt='Coverage Status' /></a>
 
   <!-- Quality -->
   <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
@@ -45,16 +43,16 @@
 
 ## Features
 
-- **redux-saga**: A library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
-- **next-i18next**: A plugin for [Next.js](https://nextjs.org/) projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with code splitting, etc.
-- **i18next**: An internationalization-framework written in and for JavaScript. But it's much more than that.
-- **redux**: A predictable state container for JavaScript apps.
-- **reselect**: Simple selector library for Redux (and others) inspired by getters in [NuclearJS](https://optimizely.github.io/nuclear-js/), subscriptions in re-frame and this proposal from speedskater.
-- **Immer**: (German for: always) is a tiny package that allows you to work with immutable state in a more convenient way. It is based on the copy-on-write mechanism
-- **@testing-library/react**: Simple and complete React DOM testing utilities that encourage good testing practices.
-- **SEO**: The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors that are key to good ranking on Google and other search engines.
-- **Typefaces**: Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.
-- **Emotion**: A library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities.
+- [x] **redux-saga**: A library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
+- [x] **next-i18next**: A plugin for [Next.js](https://nextjs.org/) projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with code splitting, etc.
+- [x] **i18next**: An internationalization-framework written in and for JavaScript. But it's much more than that.
+- [x] **redux**: A predictable state container for JavaScript apps.
+- [x] **reselect**: Simple selector library for Redux (and others) inspired by getters in [NuclearJS](https://optimizely.github.io/nuclear-js/), subscriptions in re-frame and this proposal from speedskater.
+- [x] **Immer**: (German for: always) is a tiny package that allows you to work with immutable state in a more convenient way. It is based on the copy-on-write mechanism
+- [x] **@testing-library/react**: Simple and complete React DOM testing utilities that encourage good testing practices.
+- [x] **SEO**: The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors that are key to good ranking on Google and other search engines.
+- [x] **Typefaces**: Self-hosting is significantly faster. Loading a typeface from Google Fonts or other hosted font service adds an extra (blocking) network request.
+- [x] **Emotion**: A library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities.
 
 # Getting Started
 
@@ -80,7 +78,15 @@ These scripts refer to the different stages of developing an application:
 
 Now you're ready to rumble! :traffic_light:
 
-### [Demo](https://react-next-boilerplate.herokuapp.com/en)
+## Documentation
+
+- [Commands](./docs/general/commands.md): Getting the most out of this boilerplate
+
+## [Demo](https://react-next-boilerplate.herokuapp.com/en)
+
+## Code of Conduct
+
+React Next Boilerplate is dedicated to building a welcoming, diverse, safe community. We expect everyone participating in the React Next Boilerplate community to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md). Please read it. Please follow it. In the React Next Boilerplate community, we work hard to build each other up and create amazing things together.
 
 ## Contributing
 
