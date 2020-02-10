@@ -17,7 +17,7 @@ class Srr extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>react-next-boilerplate</title>
+          <title>React Next Boilerplate</title>
         </Head>
 
         <Provider store={reduxStore}>

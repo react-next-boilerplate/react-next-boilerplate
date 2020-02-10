@@ -1,38 +1,18 @@
 # Thanks for being interested in contributing! We're so glad you want to help!
 
-Below you'll find guides on the `react-next-boilerplate` community, code of conduct, and how to get started with contributing:
+Below you'll find guides on the `react-next-boilerplate` community, and how to get started with contributing:
 
 We really like React and some things that we think is excellent is its community, so I would like to use some [Gatsby Contributor Covenant Code of Conduct](https://www.gatsbyjs.org/contributing/code-of-conduct/).
-
-## Our standards
-
-Creating a positive environment implies:
-
-- Using welcoming and inclusive language.
-- Being respectful towards differing viewpoints and experiences.
-- Gracefully accepting constructive criticism.
-- Focusing on what is best for the community.
-- Showing empathy towards other community members.
-
-Examples of unacceptable behavior by participants include:
-
-- The use of sexualized language or imagery and unwelcome sexual attention or advances.
-- Trolling, insulting/derogatory comments, and personal or political attacks.
-- Public or private harassment.
-- Publishing others’ private information, such as a physical or electronic address, without explicit permission.
-- Other conduct which could reasonably be considered inappropriate in a professional setting.
-
-## Our responsibilities
-
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this code of conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 ## How to contribute
 
 Feel free to contribute whatever you want by creating issues to improve the source code, contributing ideas to create a better community.
 
-### Opening PRs in react-next-boilerplate
+## Not sure how to start contributing?
+
+If you are worried or don’t know where to start. You can reach out with questions to [Jorge L. C. A. (@wootsbot)](https://twitter.com/wootsbot) or [ @RNBoilerplate](https://twitter.com/RNBoilerplate) on Twitter, and anyone from the react-next-boilerplate team on [spectrum](https://spectrum.chat/react-next-boilerplate).
+
+## Opening PRs in react-next-boilerplate
 
 To test reaction-native-polyline-address changes and project files locally,
 you can fork the repository and install parts to run it on your local machine

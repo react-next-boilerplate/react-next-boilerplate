@@ -93,6 +93,18 @@ exports[`<Features /> Should render correctly 1`] = `
             <h3
               class="css-plrnzz-Title e18s5a7r5"
             >
+              Immer
+            </h3>
+            <p
+              class="css-sdcqhn-Content e18s5a7r6"
+            />
+          </div>
+          <div
+            class="css-qup410-FeatureItem e18s5a7r4"
+          >
+            <h3
+              class="css-plrnzz-Title e18s5a7r5"
+            >
               @testing-library/react
             </h3>
             <p
