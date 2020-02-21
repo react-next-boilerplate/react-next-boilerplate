@@ -112,3 +112,7 @@ Thank you for your interest in contributing; we are delighted you want to help o
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2019 Jorge Luis Calleja Alvarado. For more information see [project license](./LICENSE).
+
+## Authors
+
+- Jorge Luis Calleja Alvarado ([@wootsbot](https://twitter.com/wootsbot)) – [React Next Boilerplate](https://www.reactnextboilerplate.com/)
