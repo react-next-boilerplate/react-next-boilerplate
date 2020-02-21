@@ -1,4 +1,4 @@
-[![react-next-boilerplate](./docs/images/preview-v2.png)](https://github.com/react-next-boilerplate/react-next-boilerplate)
+[![react-next-boilerplate](./docs/images/preview-v2.png)](https://www.reactnextboilerplate.com/)
 
 <br />
 
@@ -8,31 +8,48 @@
 <br />
 
 <div align="center">
-  <!-- Build Status -->
+  <!-- BUILD STATUS -->
   <a href="https://travis-ci.com/react-next-boilerplate/react-next-boilerplate/builds">
-    <img src="https://img.shields.io/travis/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Build Status" />
+    <img src="https://img.shields.io/github/v/tag/react-next-boilerplate/react-next-boilerplate?color=000000&label=version&logo=version&style=flat-square" alt="Build Status" />
   </a>
-  <!-- Test Coverage -->
-  <a href='https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate?branch=canary'><img src='https://coveralls.io/repos/github/react-next-boilerplate/react-next-boilerplate/badge.svg?branch=canary' alt='Coverage Status' /></a>
 
-  <!-- Quality -->
+  <!-- TEST COVERAGE -->
+  <a href='https://coveralls.io/github/react-next-boilerplate/react-next-boilerplate?branch=master'>
+    <img src='https://img.shields.io/coveralls/github/react-next-boilerplate/react-next-boilerplate/master?style=flat-square' alt='Coverage Status' />
+  </a>
+
+  <!-- QUALITY -->
   <a href="https://app.codacy.com/manual/react-next-boilerplate/react-next-boilerplate/dashboard?bid=14562912">
     <img src="https://img.shields.io/codacy/grade/ee2b85244d434adaa5aa04470fcdde48?style=flat-square" alt="Quality" />
   </a>
 
-  <!-- Community -->
-  <a href="https://spectrum.chat/react-next-boilerplate">
-    <img src="https://img.shields.io/badge/Join%20the%20community-on%20Spectrum-%237b16ff?style=flat-square" alt="Spectrum" />
+  <!-- ISSUES -->
+  <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/issues">
+    <img src="https://img.shields.io/github/issues/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="issues" />
   </a>
-
+ 
   <!-- MIT -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="MIT" />
   </a>
   
-  <!-- Contributors -->
+  <!-- CONTRIBUTORS -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Contributors" />
+  </a>
+
+</div>
+
+<div align="center">
+
+  <!-- SPECTRUM -->
+  <a href="https://spectrum.chat/react-next-boilerplate">
+    <img src="https://img.shields.io/badge/Join%20the%20community-on%20Spectrum-%237b16ff?style=flat-square" alt="Spectrum" />
+  </a>
+
+  <!-- TWITTER -->
+  <a href="https://twitter.com/RNBoilerplate">
+    <img src="https://img.shields.io/twitter/url?color=%231DA1F2&label=%40RNBoilerplate&logo=RNBoilerplate&logoColor=1DA1F2&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FRNBoilerplate" alt="Contributors" />
   </a>
 
 </div>
@@ -95,3 +112,7 @@ Thank you for your interest in contributing; we are delighted you want to help o
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2019 Jorge Luis Calleja Alvarado. For more information see [project license](./LICENSE).
+
+## Authors
+
+- Jorge Luis Calleja Alvarado ([@wootsbot](https://twitter.com/wootsbot)) – [React Next Boilerplate](https://www.reactnextboilerplate.com/)
