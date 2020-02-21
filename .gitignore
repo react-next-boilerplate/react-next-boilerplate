@@ -1,5 +1,5 @@
 # Don't check auto-generated stuff into git
-src/.next/
+.next/
 coverage
 node_modules
 stats.json
