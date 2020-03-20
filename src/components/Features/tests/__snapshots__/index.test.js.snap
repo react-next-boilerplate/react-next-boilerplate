@@ -19,120 +19,120 @@ exports[`<Features /> Should render correctly 1`] = `
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               SEO
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               redux-saga
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               next-i18next
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               i18next
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               redux
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               reselect
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               Immer
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               @testing-library/react
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               Typefaces
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
           <div
             class="css-qup410-FeatureItem e18s5a7r4"
           >
             <h3
-              class="css-plrnzz-Title e18s5a7r5"
+              class="css-gv7zs-Title e18s5a7r5"
             >
               Emotion
             </h3>
             <p
-              class="css-sdcqhn-Content e18s5a7r6"
+              class="css-eslccy-Content e18s5a7r6"
             />
           </div>
         </div>

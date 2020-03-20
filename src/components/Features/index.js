@@ -38,13 +38,13 @@ const FeatureItem = styled('div')`
 const Title = styled('h3')`
   font-size: 20px;
   font-family: 'Metropolis';
-  font-weight: 500;
-  color: #09d3ac;
+  font-weight: 600;
   margin: 0;
 `;
 
 const Content = styled('p')`
   line-height: 1.65;
+  font-weight: 400;
 `;
 
 export function Features({ t }) {

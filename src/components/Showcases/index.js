@@ -68,20 +68,17 @@ const LinkShoucase = styled('a')`
 export function Showcases(props) {
   const { data, onGetShowcases, t } = props;
 
-  const { loading, showcases } = data;
+  const { loading, fetched, showcases } = data;
 
-  if (loading) {
-    return <Spiner />;
-  }
+  const renderCases = () => {
+    if (loading) {
+      return <Spiner />;
+    }
 
-  return (
-    <Container id="exampleGetApi">
-      <ButonGetApi onClick={onGetShowcases}>{t('phrases.getShowcases')}</ButonGetApi>
-
-      <ShowcasesRow>
-        {showcases &&
-          showcases.length &&
-          showcases.map(item => (
+    if (fetched) {
+      return (
+        <ShowcasesRow>
+          {showcases.map(item => (
             <ShowcasesItem key={item.link}>
               <ImgSrc src={item.src} alt={item.title} />
 
@@ -92,7 +89,16 @@ export function Showcases(props) {
               </LinkShoucase>
             </ShowcasesItem>
           ))}
-      </ShowcasesRow>
+        </ShowcasesRow>
+      );
+    }
+  };
+
+  return (
+    <Container id="exampleGetApi">
+      <ButonGetApi onClick={onGetShowcases}>{t('phrases.getShowcases')}</ButonGetApi>
+
+      {renderCases()}
     </Container>
   );
 }
