@@ -88,12 +88,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 SEO
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.seo
               </p>
@@ -102,12 +102,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 redux-saga
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.reduxSaga
               </p>
@@ -116,12 +116,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 next-i18next
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.nextI18next
               </p>
@@ -130,12 +130,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 i18next
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.i18next
               </p>
@@ -144,12 +144,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 redux
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.redux
               </p>
@@ -158,12 +158,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 reselect
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.reselect
               </p>
@@ -172,12 +172,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 Immer
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.immer
               </p>
@@ -186,12 +186,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 @testing-library/react
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.testingLibraryReact
               </p>
@@ -200,12 +200,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 Typefaces
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.typefaces
               </p>
@@ -214,12 +214,12 @@ exports[`<Home /> should render and match the snapshot 1`] = `
               class="css-qup410-FeatureItem e18s5a7r4"
             >
               <h3
-                class="css-plrnzz-Title e18s5a7r5"
+                class="css-gv7zs-Title e18s5a7r5"
               >
                 Emotion
               </h3>
               <p
-                class="css-sdcqhn-Content e18s5a7r6"
+                class="css-eslccy-Content e18s5a7r6"
               >
                 features.emotion
               </p>
@@ -237,11 +237,6 @@ exports[`<Home /> should render and match the snapshot 1`] = `
       >
         phrases.getShowcases
       </button>
-      <div
-        class="css-1bqe7xb-ShowcasesRow e1vuap0q2"
-      >
-        0
-      </div>
     </div>
   </main>
   <footer
