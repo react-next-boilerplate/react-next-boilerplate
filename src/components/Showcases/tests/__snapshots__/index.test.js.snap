@@ -9,136 +9,6 @@ exports[`<Showcases /> Should render correctly 1`] = `
     <button
       class="css-67bxaj-ButonGetApi e1vuap0q1"
     />
-    <div
-      class="css-1bqe7xb-ShowcasesRow e1vuap0q2"
-    >
-      <div
-        class="css-j1ryci-ShowcasesItem e1vuap0q3"
-      >
-        <img
-          alt="Auth0\\""
-          class="css-fu2qal-ImgSrc e1vuap0q4"
-          src="https://nextjs.org/static/images/showcases/auth0.jpg"
-        />
-        <h3
-          class="css-ka0rwz-Title e1vuap0q5"
-        >
-          Auth0"
-        </h3>
-        <a
-          class="css-15nlpuq-LinkShoucase e1vuap0q6"
-          href="https://auth0.com/"
-          target="_blank"
-        >
-          https://auth0.com/
-        </a>
-      </div>
-      <div
-        class="css-j1ryci-ShowcasesItem e1vuap0q3"
-      >
-        <img
-          alt="LEGO for Kids"
-          class="css-fu2qal-ImgSrc e1vuap0q4"
-          src="https://nextjs.org/static/images/showcases/lego.jpg"
-        />
-        <h3
-          class="css-ka0rwz-Title e1vuap0q5"
-        >
-          LEGO for Kids
-        </h3>
-        <a
-          class="css-15nlpuq-LinkShoucase e1vuap0q6"
-          href="https://www.lego.com/en-us/kids"
-          target="_blank"
-        >
-          https://www.lego.com/en-us/kids
-        </a>
-      </div>
-      <div
-        class="css-j1ryci-ShowcasesItem e1vuap0q3"
-      >
-        <img
-          alt="Netflix Jobs"
-          class="css-fu2qal-ImgSrc e1vuap0q4"
-          src="https://nextjs.org/static/images/showcases/showcases-02.jpg"
-        />
-        <h3
-          class="css-ka0rwz-Title e1vuap0q5"
-        >
-          Netflix Jobs
-        </h3>
-        <a
-          class="css-15nlpuq-LinkShoucase e1vuap0q6"
-          href="https://jobs.netflix.com"
-          target="_blank"
-        >
-          https://jobs.netflix.com
-        </a>
-      </div>
-      <div
-        class="css-j1ryci-ShowcasesItem e1vuap0q3"
-      >
-        <img
-          alt="Starbucks Reserve"
-          class="css-fu2qal-ImgSrc e1vuap0q4"
-          src="https://nextjs.org/static/images/showcases/starbucksreserve.jpg"
-        />
-        <h3
-          class="css-ka0rwz-Title e1vuap0q5"
-        >
-          Starbucks Reserve
-        </h3>
-        <a
-          class="css-15nlpuq-LinkShoucase e1vuap0q6"
-          href="https://www.starbucksreserve.com/en-us"
-          target="_blank"
-        >
-          https://www.starbucksreserve.com/en-us
-        </a>
-      </div>
-      <div
-        class="css-j1ryci-ShowcasesItem e1vuap0q3"
-      >
-        <img
-          alt="Twitch"
-          class="css-fu2qal-ImgSrc e1vuap0q4"
-          src="https://nextjs.org/static/images/showcases/twitch.jpg"
-        />
-        <h3
-          class="css-ka0rwz-Title e1vuap0q5"
-        >
-          Twitch
-        </h3>
-        <a
-          class="css-15nlpuq-LinkShoucase e1vuap0q6"
-          href="https://m.twitch.tv"
-          target="_blank"
-        >
-          https://m.twitch.tv
-        </a>
-      </div>
-      <div
-        class="css-j1ryci-ShowcasesItem e1vuap0q3"
-      >
-        <img
-          alt="Uber Marketplace"
-          class="css-fu2qal-ImgSrc e1vuap0q4"
-          src="https://nextjs.org/static/images/showcases/underbelly.jpg"
-        />
-        <h3
-          class="css-ka0rwz-Title e1vuap0q5"
-        >
-          Uber Marketplace
-        </h3>
-        <a
-          class="css-15nlpuq-LinkShoucase e1vuap0q6"
-          href="https://marketplace.uber.com/"
-          target="_blank"
-        >
-          https://marketplace.uber.com/
-        </a>
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -146,7 +16,15 @@ exports[`<Showcases /> Should render correctly 1`] = `
 exports[`<Showcases /> When props.loading is true must render component <Spiner /> 1`] = `
 <div>
   <div
-    class="css-d9vn3c-SpinnerRoot elalafq0"
-  />
+    class="css-1hvjfqy-Container e1vuap0q0"
+    id="exampleGetApi"
+  >
+    <button
+      class="css-67bxaj-ButonGetApi e1vuap0q1"
+    />
+    <div
+      class="css-d9vn3c-SpinnerRoot elalafq0"
+    />
+  </div>
 </div>
 `;

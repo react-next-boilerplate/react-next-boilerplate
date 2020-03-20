@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 
 import { Showcases } from '..';
 
 describe('<Showcases />', () => {
   const spy = jest.fn();
   const showcases = [
-    { link: 'https://auth0.com/', title: 'Auth0"', src: 'https://nextjs.org/static/images/showcases/auth0.jpg' },
+    { link: 'https://auth0.com/', title: 'Auth0', src: 'https://nextjs.org/static/images/showcases/auth0.jpg' },
     {
       title: 'LEGO for Kids',
       src: 'https://nextjs.org/static/images/showcases/lego.jpg',
@@ -51,5 +52,21 @@ describe('<Showcases />', () => {
     const { container } = render(<Showcases data={customDta} t={spy} onGetShowcases={spy} />);
 
     expect(container).toMatchSnapshot();
+  });
+
+  it('Should render cases', () => {
+    const customDta = {
+      ...data,
+      data: [],
+      fetched: true,
+    };
+
+    const { getByText } = render(<Showcases data={customDta} t={spy} onGetShowcases={spy} />);
+
+    expect(getByText('Auth0')).toBeInTheDocument();
+    expect(getByText('LEGO for Kids')).toBeInTheDocument();
+    expect(getByText('Netflix Jobs')).toBeInTheDocument();
+    expect(getByText('Starbucks Reserve')).toBeInTheDocument();
+    expect(getByText('Uber Marketplace')).toBeInTheDocument();
   });
 });

@@ -54,6 +54,7 @@
     "typeface-metropolis": "^0.0.74"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^9.4.0",
     "babel-eslint": "^10.0.2",
     "babel-jest": "^24.8.0",
