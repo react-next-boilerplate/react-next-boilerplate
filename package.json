@@ -14,7 +14,8 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "npm run lint:js",
     "lint:js": "eslint src --fix",
-    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|jsx)\" --write"
+    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|jsx)\" --write",
+    "clean:example": "rnb --c"
   },
   "husky": {
     "hooks": {
@@ -32,6 +33,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "@r-next-b/cli": "^0.1.1",
     "@typefaces-pack/typeface-inter": "^1.0.3",
     "clsx": "^1.1.0",
     "express": "^4.17.1",
@@ -40,7 +42,7 @@
     "immer": "^5.3.2",
     "invariant": "2.2.4",
     "lodash": "^4.17.15",
-    "next": "^9.3.2",
+    "next": "^9.3.4",
     "next-i18next": "^4.2.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
