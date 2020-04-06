@@ -33,7 +33,6 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "@r-next-b/cli": "^0.1.1",
     "@typefaces-pack/typeface-inter": "^1.0.3",
     "clsx": "^1.1.0",
     "express": "^4.17.1",
@@ -56,6 +55,7 @@
     "typeface-metropolis": "^0.0.74"
   },
   "devDependencies": {
+    "@r-next-b/cli": "^0.1.1",
     "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^9.4.0",
     "babel-eslint": "^10.0.2",
