@@ -1,7 +1,8 @@
 import React from 'react';
 
 import { Provider } from 'react-redux';
-
+import { CacheProvider } from '@emotion/core';
+import { cache } from 'emotion';
 import Head from 'next/head';
 import App from 'next/app';
 
@@ -21,7 +22,9 @@ class Srr extends App {
         </Head>
 
         <Provider store={reduxStore}>
-          <Component {...pageProps} />
+          <CacheProvider value={cache}>
+            <Component {...pageProps} />
+          </CacheProvider>
         </Provider>
       </React.Fragment>
     );

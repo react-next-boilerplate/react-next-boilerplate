@@ -1,12 +1,15 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
-
+import { extractCritical } from 'emotion-server';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
+    const page = ctx.renderPage();
+    // extract css to render in SSR
+    const styles = extractCritical(page.html);
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    return { ...initialProps, ...page, ...styles };
   }
 
   render() {
@@ -36,6 +39,7 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/static/favicon/favicon.png" />
           <meta name="msapplication-config" content="/static/favicon/browserconfig.xml" />
           <meta name="theme-color" content="#000" />
+          <style data-emotion-css={this.props.ids.join(' ')} dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </Head>
 
         <body>
