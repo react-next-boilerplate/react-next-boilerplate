@@ -2,7 +2,7 @@
 
 <br />
 
-<div align="center"><strong>Start your project with the NextJS in seconds</strong></div>
+<div align="center"><strong>Start your project with the NextJS in seconds.</strong></div>
 <div align="center">We spend time using good community practices to make your project scalable.</div>
 
 <br />
