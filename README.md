@@ -43,7 +43,7 @@
 <div align="center">
 
   <!-- DISCORD -->
-  <a href="https://spectrum.chat/react-next-boilerplate">
+  <a href="https://discord.gg/ANbWXGs">
     <img src="https://img.shields.io/discord/680982918541082638?color=%237289DA&logo=discord&style=flat-square" alt="Discord" />
   </a>
 
