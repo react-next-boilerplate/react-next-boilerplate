@@ -1,9 +1,9 @@
 name: discord message
 on:
   push:
-    branches:
-      - test-canary
-    pull_request:
+    branches: [ test-canary ]
+  pull_request:
+    branches: [ test-canary ]
 jobs:
 
   build:
