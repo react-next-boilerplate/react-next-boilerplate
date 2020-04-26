@@ -42,14 +42,14 @@
 
 <div align="center">
 
-  <!-- SPECTRUM -->
-  <a href="https://spectrum.chat/react-next-boilerplate">
-    <img src="https://img.shields.io/badge/Join%20the%20community-on%20Spectrum-%237b16ff?style=flat-square" alt="Spectrum" />
+  <!-- DISCORD -->
+  <a href="https://discord.gg/ANbWXGs">
+    <img src="https://img.shields.io/discord/680982918541082638?color=%237289DA&logo=discord&style=flat-square" alt="Discord" />
   </a>
 
   <!-- TWITTER -->
   <a href="https://twitter.com/RNBoilerplate">
-    <img src="https://img.shields.io/twitter/url?color=%231DA1F2&label=%40RNBoilerplate&logo=RNBoilerplate&logoColor=1DA1F2&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FRNBoilerplate" alt="Contributors" />
+    <img src="https://img.shields.io/twitter/url?label=%40RNBoilerplate&logo=twitter&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FRNBoilerplate" alt="Twitter" />
   </a>
 
 </div>
