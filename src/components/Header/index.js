@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Link } from '../../../i18n';
-
 import styled from '@emotion/styled';
 
 import { withTranslation } from 'utils/with-i18next';
 
 import SelectLanguages from './SelectLanguages';
+import CustomLink from './CustomLink';
 
 const HeaderRoot = styled(`header`)`
   left: 0;
@@ -38,19 +37,6 @@ const ListItem = styled('div')`
   display: flex;
 `;
 
-const ItemLink = styled('a')`
-  color: #757575;
-  text-decoration: none;
-  margin-left: -5px;
-  margin-right: 2rem;
-  padding: 5px;
-
-  &:hover {
-    cursor: pointer;
-    color: #000;
-  }
-`;
-
 const ListActions = styled('div')`
   display: flex;
 `;
@@ -65,13 +51,8 @@ export function Header({ t }) {
       <HeaderContainer>
         <NavRoot>
           <ListItem>
-            <Link href="#features">
-              <ItemLink>{t('phrases.features')}</ItemLink>
-            </Link>
-
-            <Link href="#exampleGetApi">
-              <ItemLink>{t('phrases.apiExample')}</ItemLink>
-            </Link>
+            <CustomLink href={'#features'} name={t('phrases.features')} />
+            <CustomLink href={'#exampleGetApi'} name={t('phrases.apiExample')} />
           </ListItem>
 
           <Space />
