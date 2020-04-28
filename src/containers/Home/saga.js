@@ -1,5 +1,5 @@
-import { takeLatest, put, call } from 'redux-saga/effects';
-
+import { takeLatest, put, call, fork } from 'redux-saga/effects';
+import { watchAndLog, safe } from 'utils/with-logStore';
 import request from 'utils/request';
 
 import { getShowcases } from './actions';
@@ -22,4 +22,5 @@ export function* getShowcasesRequest() {
 
 export default function* dataShowcases() {
   yield takeLatest(getShowcases.TRIGGER, getShowcasesRequest);
+  if (process.env.NODE_ENV === 'development') yield safe(fork(watchAndLog));
 }
