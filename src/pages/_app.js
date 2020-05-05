@@ -16,7 +16,7 @@ class Srr extends App {
   render() {
     const { Component, pageProps, reduxStore } = this.props;
     return (
-      <React.Fragment>
+      <React.StrictMode>
         <Head>
           <title>React Next Boilerplate</title>
         </Head>
@@ -26,7 +26,7 @@ class Srr extends App {
             <Component {...pageProps} />
           </CacheProvider>
         </Provider>
-      </React.Fragment>
+      </React.StrictMode>
     );
   }
 }
