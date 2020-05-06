@@ -15,17 +15,19 @@ exports[`<Header /> Should render correctly 1`] = `
           class="css-1vw1113-ListItem ez4dfsd3"
         >
           <a
-            class="css-15ani8u-ItemLink ez4dfsd4"
+            class="css-15ani8u-ItemLink epoma0f0"
+            href="#features"
           />
           <a
-            class="css-15ani8u-ItemLink ez4dfsd4"
+            class="css-15ani8u-ItemLink epoma0f0"
+            href="#exampleGetApi"
           />
         </div>
         <div
-          class="css-kh7q0g-Space ez4dfsd6"
+          class="css-kh7q0g-Space ez4dfsd5"
         />
         <div
-          class="css-1jbsa08-ListActions ez4dfsd5"
+          class="css-1jbsa08-ListActions ez4dfsd4"
         >
           <select
             class="css-rdesed-SelectRoot e1ut4ry90"
