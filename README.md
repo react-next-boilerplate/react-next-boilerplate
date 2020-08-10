@@ -1,9 +1,8 @@
-[![react-next-boilerplate](./docs/images/preview-v2.png)](https://www.reactnextboilerplate.com/)
+[![react-next-boilerplate](./docs/images/rnb-bg.png)](https://www.reactnextboilerplate.com/)
 
-<br />
-
-<div align="center"><strong>Start your project with the NextJS in seconds</strong></div>
-<div align="center">We spend time using good community practices to make your project scalable.</div>
+<div align="center">
+  We spend time using good community practices to make your project scalable.
+</div>
 
 <br />
 
@@ -61,6 +60,7 @@
 ## Features
 
 - [x] **redux-saga**: A library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
+- [x] **redux-saga-routines**: A smart action creator for Redux. Useful for any kind of async actions like fetching data. Also fully compatible with Redux Saga and Redux Form.
 - [x] **next-i18next**: A plugin for [Next.js](https://nextjs.org/) projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with code splitting, etc.
 - [x] **i18next**: An internationalization-framework written in and for JavaScript. But it's much more than that.
 - [x] **redux**: A predictable state container for JavaScript apps.
@@ -99,7 +99,7 @@ Now you're ready to rumble! :traffic_light:
 
 - [Commands](./docs/general/commands.md): Getting the most out of this boilerplate
 
-## [Demo](https://react-next-boilerplate.herokuapp.com/en)
+## [Demo](https://react-next-boilerplate.herokuapp.com)
 
 ## Code of Conduct
 
