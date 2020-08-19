@@ -16,13 +16,13 @@ exports[`<Layout /> Should render correctly 1`] = `
         >
           <a
             class="css-15ani8u-ItemLink epoma0f0"
-            href="#features"
+            href="/#features"
           >
             phrases.features
           </a>
           <a
             class="css-15ani8u-ItemLink epoma0f0"
-            href="#exampleGetApi"
+            href="/#exampleGetApi"
           >
             phrases.apiExample
           </a>
