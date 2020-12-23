@@ -1,4 +1,4 @@
-[![react-next-boilerplate](./docs/images/rnb-bg.png)](https://www.reactnextboilerplate.com/)
+[![react-next-boilerplate](./docs/images/nv-rnb.png)](https://www.reactnextboilerplate.com/)
 
 <div align="center">
   We spend time using good community practices to make your project scalable.
@@ -26,12 +26,12 @@
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/issues">
     <img src="https://img.shields.io/github/issues/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="issues" />
   </a>
- 
+
   <!-- MIT -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="MIT" />
   </a>
-  
+
   <!-- CONTRIBUTORS -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Contributors" />
