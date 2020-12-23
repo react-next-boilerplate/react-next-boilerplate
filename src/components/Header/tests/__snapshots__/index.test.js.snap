@@ -3,16 +3,16 @@
 exports[`<Header /> Should render correctly 1`] = `
 <div>
   <header
-    class="css-w41d0-HeaderRoot ez4dfsd0"
+    class="css-15etwxy-HeaderRoot ez4dfsd5"
   >
     <div
-      class="css-u5y1t0-HeaderContainer ez4dfsd1"
+      class="css-kubhes-HeaderContainer ez4dfsd4"
     >
       <nav
-        class="css-wvyf6s-NavRoot ez4dfsd2"
+        class="css-11njdmq-NavRoot ez4dfsd3"
       >
         <div
-          class="css-1vw1113-ListItem ez4dfsd3"
+          class="css-1hbc6ct-ListItem ez4dfsd2"
         >
           <a
             class="css-15ani8u-ItemLink epoma0f0"
@@ -24,13 +24,13 @@ exports[`<Header /> Should render correctly 1`] = `
           />
         </div>
         <div
-          class="css-kh7q0g-Space ez4dfsd5"
+          class="css-13ln5v8-Space ez4dfsd0"
         />
         <div
-          class="css-1jbsa08-ListActions ez4dfsd4"
+          class="css-1at58d5-ListActions ez4dfsd1"
         >
           <select
-            class="css-rdesed-SelectRoot e1ut4ry90"
+            class="css-1j005nt-SelectRoot e1ut4ry90"
             id="languages"
             name="languages"
           >

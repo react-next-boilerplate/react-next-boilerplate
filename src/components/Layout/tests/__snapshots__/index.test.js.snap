@@ -3,16 +3,16 @@
 exports[`<Layout /> Should render correctly 1`] = `
 <div>
   <header
-    class="css-w41d0-HeaderRoot ez4dfsd0"
+    class="css-15etwxy-HeaderRoot ez4dfsd5"
   >
     <div
-      class="css-u5y1t0-HeaderContainer ez4dfsd1"
+      class="css-kubhes-HeaderContainer ez4dfsd4"
     >
       <nav
-        class="css-wvyf6s-NavRoot ez4dfsd2"
+        class="css-11njdmq-NavRoot ez4dfsd3"
       >
         <div
-          class="css-1vw1113-ListItem ez4dfsd3"
+          class="css-1hbc6ct-ListItem ez4dfsd2"
         >
           <a
             class="css-15ani8u-ItemLink epoma0f0"
@@ -28,13 +28,13 @@ exports[`<Layout /> Should render correctly 1`] = `
           </a>
         </div>
         <div
-          class="css-kh7q0g-Space ez4dfsd5"
+          class="css-13ln5v8-Space ez4dfsd0"
         />
         <div
-          class="css-1jbsa08-ListActions ez4dfsd4"
+          class="css-1at58d5-ListActions ez4dfsd1"
         >
           <select
-            class="css-rdesed-SelectRoot e1ut4ry90"
+            class="css-1j005nt-SelectRoot e1ut4ry90"
             id="languages"
             name="languages"
           >
@@ -55,20 +55,20 @@ exports[`<Layout /> Should render correctly 1`] = `
   </header>
   <main>
     <div
-      class="css-1f5wcpk-BannerRoot eywty1z0"
+      class="css-12g2fob-BannerRoot eywty1z3"
     >
       <img
         alt="react-next-boilerplate"
-        class="css-1wov1b9-Logo eywty1z3"
+        class="css-1gb4ms7-Logo eywty1z0"
         src="/static/images/reac-next-boilerplate-logo.svg"
       />
       <h1
-        class="css-1f42zqr-Title eywty1z1"
+        class="css-3j23gb-Title eywty1z2"
       >
         title
       </h1>
       <h2
-        class="css-pfcoqg-SubTitle eywty1z2"
+        class="css-15g2rhr-SubTitle eywty1z1"
       >
         subTitle
       </h2>
