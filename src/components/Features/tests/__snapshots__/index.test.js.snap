@@ -3,136 +3,136 @@
 exports[`<Features /> Should render correctly 1`] = `
 <div>
   <div
-    class="css-k8tdx0-Container e18s5a7r0"
+    class="css-1a7ifp2-Container e18s5a7r6"
     id="features"
   >
     <div
-      class="css-jbe736-FeaturesRoot e18s5a7r1"
+      class="css-2gab7u-FeaturesRoot e18s5a7r5"
     >
       <div
-        class="css-1jpy3hs-FeaturesListContainer e18s5a7r3"
+        class="css-4k3a82-FeaturesListContainer e18s5a7r3"
       >
         <div
-          class="css-dblltl-FeaturesList e18s5a7r2"
+          class="css-1iwp3y-FeaturesList e18s5a7r4"
         >
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               SEO
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               redux-saga
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               next-i18next
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               i18next
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               redux
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               reselect
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               Immer
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               @testing-library/react
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               Typefaces
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
           <div
-            class="css-qup410-FeatureItem e18s5a7r4"
+            class="css-zinlcv-FeatureItem e18s5a7r2"
           >
             <h3
-              class="css-gv7zs-Title e18s5a7r5"
+              class="css-k216p8-Title e18s5a7r1"
             >
               Emotion
             </h3>
             <p
-              class="css-eslccy-Content e18s5a7r6"
+              class="css-168i06-Content e18s5a7r0"
             />
           </div>
         </div>

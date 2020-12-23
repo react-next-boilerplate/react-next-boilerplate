@@ -3,18 +3,18 @@
 exports[`<Banner /> Should render correctly 1`] = `
 <div>
   <div
-    class="css-1f5wcpk-BannerRoot eywty1z0"
+    class="css-12g2fob-BannerRoot eywty1z3"
   >
     <img
       alt="react-next-boilerplate"
-      class="css-1wov1b9-Logo eywty1z3"
+      class="css-1gb4ms7-Logo eywty1z0"
       src="/static/images/reac-next-boilerplate-logo.svg"
     />
     <h1
-      class="css-1f42zqr-Title eywty1z1"
+      class="css-3j23gb-Title eywty1z2"
     />
     <h2
-      class="css-pfcoqg-SubTitle eywty1z2"
+      class="css-15g2rhr-SubTitle eywty1z1"
     />
   </div>
 </div>
