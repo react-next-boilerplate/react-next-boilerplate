@@ -39,7 +39,7 @@
     "fontsource-metropolis": "^3.1.5",
     "hoist-non-react-statics": "3.3.0",
     "i18next": "^19.8.4",
-    "immer": "^6.0.9",
+    "immer": "^8.0.1",
     "invariant": "2.2.4",
     "lodash": "^4.17.19",
     "next": "^10.0.3",
