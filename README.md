@@ -99,7 +99,7 @@ Now you're ready to rumble! :traffic_light:
 
 - [Commands](./docs/general/commands.md): Getting the most out of this boilerplate
 
-## [Demo](https://react-next-boilerplate.herokuapp.com)
+## [Demo](https://react-next-boilerplate.vercel.app)
 
 ## Code of Conduct
 
