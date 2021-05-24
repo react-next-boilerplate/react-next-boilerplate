@@ -1,9 +1,8 @@
-[![react-next-boilerplate](./docs/images/preview-v2.png)](https://www.reactnextboilerplate.com/)
+[![react-next-boilerplate](./docs/images/nv-rnb.png)](https://www.reactnextboilerplate.com/)
 
-<br />
-
-<div align="center"><strong>Start your project with the NextJS in seconds</strong></div>
-<div align="center">We spend time using good community practices to make your project scalable.</div>
+<div align="center">
+  We spend time using good community practices to make your project scalable.
+</div>
 
 <br />
 
@@ -27,12 +26,12 @@
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/issues">
     <img src="https://img.shields.io/github/issues/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="issues" />
   </a>
- 
+
   <!-- MIT -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="MIT" />
   </a>
-  
+
   <!-- CONTRIBUTORS -->
   <a href="https://github.com/react-next-boilerplate/react-next-boilerplate/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/react-next-boilerplate/react-next-boilerplate?style=flat-square" alt="Contributors" />
@@ -42,14 +41,14 @@
 
 <div align="center">
 
-  <!-- SPECTRUM -->
-  <a href="https://spectrum.chat/react-next-boilerplate">
-    <img src="https://img.shields.io/badge/Join%20the%20community-on%20Spectrum-%237b16ff?style=flat-square" alt="Spectrum" />
+  <!-- DISCORD -->
+  <a href="https://discord.gg/ANbWXGs">
+    <img src="https://img.shields.io/discord/680982918541082638?color=%237289DA&logo=discord&style=flat-square" alt="Discord" />
   </a>
 
   <!-- TWITTER -->
   <a href="https://twitter.com/RNBoilerplate">
-    <img src="https://img.shields.io/twitter/url?color=%231DA1F2&label=%40RNBoilerplate&logo=RNBoilerplate&logoColor=1DA1F2&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FRNBoilerplate" alt="Contributors" />
+    <img src="https://img.shields.io/twitter/url?label=%40RNBoilerplate&logo=twitter&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FRNBoilerplate" alt="Twitter" />
   </a>
 
 </div>
@@ -61,6 +60,7 @@
 ## Features
 
 - [x] **redux-saga**: A library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
+- [x] **redux-saga-routines**: A smart action creator for Redux. Useful for any kind of async actions like fetching data. Also fully compatible with Redux Saga and Redux Form.
 - [x] **next-i18next**: A plugin for [Next.js](https://nextjs.org/) projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with code splitting, etc.
 - [x] **i18next**: An internationalization-framework written in and for JavaScript. But it's much more than that.
 - [x] **redux**: A predictable state container for JavaScript apps.
@@ -99,7 +99,7 @@ Now you're ready to rumble! :traffic_light:
 
 - [Commands](./docs/general/commands.md): Getting the most out of this boilerplate
 
-## [Demo](https://react-next-boilerplate.herokuapp.com/en)
+## [Demo](https://react-next-boilerplate.vercel.app)
 
 ## Code of Conduct
 

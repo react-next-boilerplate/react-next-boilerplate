@@ -1,12 +1,14 @@
 import React from 'react';
-import { Global, css } from '@emotion/core';
-
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+
+import { Global, css } from '@emotion/react';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
+    const page = ctx.renderPage();
+    // extract css to render in SSR
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    return { ...initialProps, ...page };
   }
 
   render() {

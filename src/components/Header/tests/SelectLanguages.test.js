@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { fireEvent, render } from '@testing-library/react';
+import { render, fireEvent, screen } from '@testing-library/react';
 
 import SelectLanguages from '../SelectLanguages';
 
@@ -16,7 +16,9 @@ describe('<SelectLanguages />', () => {
   it('When called onChange() must save in state local the value of event onChange', () => {
     const { container } = render(<SelectLanguages t={spy} />);
 
-    fireEvent.change(container.querySelector('select'), { target: { value: 'es' } });
+    const selectLenguage = screen.getByRole('combobox');
+
+    fireEvent.change(selectLenguage, { target: { value: 'es' }, preventDefault: jest.fn() });
 
     expect(container).toMatchSnapshot();
   });

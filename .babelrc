@@ -10,14 +10,5 @@
       "presets": ["next/babel"]
     }
   },
-  "plugins": [
-    "emotion",
-    [
-      "module-resolver",
-      {
-        "root": ["./src"],
-        "modules": ["src"]
-      }
-    ]
-  ]
+  "plugins": ["@emotion"]
 }
