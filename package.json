@@ -8,6 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "next:lint": "next lint",
     "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|jsx)\" --write"
   },
   "lint-staged": {
@@ -23,6 +24,8 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.1",
