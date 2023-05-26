@@ -51,6 +51,11 @@
     <img src="https://img.shields.io/twitter/url?label=%40RNBoilerplate&logo=twitter&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FRNBoilerplate" alt="Twitter" />
   </a>
 
+  <!-- RUNME -->
+  <a href="https://runme.dev/api/runme?repository=https%3A%2F%2Fgithub.com%2Freact-next-boilerplate%2Freact-next-boilerplate.git&fileToOpen=README.md">
+    <img src="https://badgen.net/badge/Run%20this%20/README/5B3ADF?icon=https://runme.dev/img/logo.svg" alt="Checkout project locally" />
+  </a>
+
 </div>
 
 <div align="center">
@@ -82,10 +87,25 @@ Welcome to the light documentation of React Next Boilerplate!
 
 ## Setup
 
-1. Clone this repo using `git clone --depth=1 https://github.com/react-next-boilerplate/react-next-boilerplate.git <YOUR_PROJECT_NAME>`
-2. Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
-3. Run `yarn` or `npm install` to install dependencies .
-4. Run `yarn dev` or `npm run dev` to see the example app at `http://localhost:3000`.
+Either click [this link](https://runme.dev/api/runme?repository=https%3A%2F%2Fgithub.com%2Freact-next-boilerplate%2Freact-next-boilerplate.git&fileToOpen=README.md) or manually clone this repo and move to the appropiate directory via:
+
+```bash
+git clone --depth=1 https://github.com/react-next-boilerplate/react-next-boilerplate.git <YOUR_PROJECT_NAME>`
+cd <YOUR_PROJECT_NAME>
+```
+
+Then, install dependencies and run the dev server:
+
+```bash
+yarn
+yarn dev
+```
+
+To see the example app at `http://localhost:3000`, run:
+
+```bash
+open http://localhost:3000
+```
 
 These scripts refer to the different stages of developing an application:
 
